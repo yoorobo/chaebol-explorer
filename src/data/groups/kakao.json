@@ -1,0 +1,18 @@
+{
+  "group": { "id": "kakao", "name": "카카오그룹", "owner": "김범수", "year": 2023, "description": "플랫폼·핀테크·엔터. 카카오㈜ 지주체제." },
+  "nodes": [
+    { "id": "kk_owner", "label": "김범수", "type": "individual", "asset": 0, "listed": false, "description": "카카오 창업주. 카카오㈜ 13.4% 보유." },
+    { "id": "kakao_corp", "label": "카카오㈜", "type": "holding_like", "asset": 10000000000000, "listed": true, "ticker": "035720", "description": "플랫폼 지주회사. 카카오톡 운영." },
+    { "id": "kakao_bank", "label": "카카오뱅크", "type": "financial", "asset": 40000000000000, "listed": true, "ticker": "323410", "description": "인터넷전문은행." },
+    { "id": "kakao_pay", "label": "카카오페이", "type": "financial", "asset": 2000000000000, "listed": true, "ticker": "377300", "description": "간편결제·핀테크." },
+    { "id": "kakao_ent", "label": "카카오엔터테인먼트", "type": "affiliate", "asset": 3000000000000, "listed": false, "description": "웹툰·음악·드라마. 비상장." },
+    { "id": "kakao_mobility", "label": "카카오모빌리티", "type": "affiliate", "asset": 1000000000000, "listed": false, "description": "택시·주차·대리운전 플랫폼." }
+  ],
+  "edges": [
+    { "source": "kk_owner", "target": "kakao_corp", "weight": 13.4, "type": "direct_ownership", "description": "김범수 → 카카오㈜" },
+    { "source": "kakao_corp", "target": "kakao_bank", "weight": 27.2, "type": "subsidiary_ownership", "description": "카카오㈜ → 카카오뱅크 (금산분리 이슈)" },
+    { "source": "kakao_corp", "target": "kakao_pay", "weight": 55.7, "type": "subsidiary_ownership", "description": "카카오㈜ → 카카오페이" },
+    { "source": "kakao_corp", "target": "kakao_ent", "weight": 43.2, "type": "subsidiary_ownership", "description": "카카오㈜ → 카카오엔터테인먼트" },
+    { "source": "kakao_corp", "target": "kakao_mobility", "weight": 57.3, "type": "subsidiary_ownership", "description": "카카오㈜ → 카카오모빌리티" }
+  ]
+}

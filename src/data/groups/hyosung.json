@@ -1,0 +1,16 @@
+{
+  "group": { "id": "hyosung", "name": "효성그룹", "owner": "조현준", "year": 2023, "description": "섬유·화학·중공업·IT. 지주회사 전환 완료." },
+  "nodes": [
+    { "id": "hs_owner", "label": "조현준 일가", "type": "individual", "asset": 0, "listed": false, "description": "효성그룹 회장. 조석래 아들." },
+    { "id": "hyosung_corp", "label": "㈜효성", "type": "holding_like", "asset": 5000000000000, "listed": true, "ticker": "004800", "description": "효성그룹 지주회사." },
+    { "id": "hs_tnc", "label": "효성티앤씨", "type": "cash_cow", "asset": 5000000000000, "listed": true, "ticker": "298050", "description": "스판덱스 세계 1위. 섬유·화학." },
+    { "id": "hs_heavy", "label": "효성중공업", "type": "affiliate", "asset": 2000000000000, "listed": true, "ticker": "298040", "description": "변압기·전력기기." },
+    { "id": "hs_chemical", "label": "효성화학", "type": "affiliate", "asset": 1500000000000, "listed": true, "ticker": "298000", "description": "PP·TAC 등 정밀화학." }
+  ],
+  "edges": [
+    { "source": "hs_owner", "target": "hyosung_corp", "weight": 34.9, "type": "direct_ownership", "description": "조현준 일가 → ㈜효성" },
+    { "source": "hyosung_corp", "target": "hs_tnc", "weight": 100.0, "type": "subsidiary_ownership", "description": "㈜효성 → 효성티앤씨 (100%)" },
+    { "source": "hyosung_corp", "target": "hs_heavy", "weight": 100.0, "type": "subsidiary_ownership", "description": "㈜효성 → 효성중공업 (100%)" },
+    { "source": "hyosung_corp", "target": "hs_chemical", "weight": 100.0, "type": "subsidiary_ownership", "description": "㈜효성 → 효성화학 (100%)" }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "group": { "id": "hanjin", "name": "한진그룹", "owner": "조원태", "year": 2023, "description": "항공·물류 중심. 한진칼-대한항공 지배구조." },
+  "nodes": [
+    { "id": "hj_owner", "label": "조원태 일가", "type": "individual", "asset": 0, "listed": false, "description": "한진그룹 회장. 조양호 아들." },
+    { "id": "hj_kal", "label": "한진칼", "type": "holding_like", "asset": 2000000000000, "listed": true, "ticker": "180640", "description": "한진그룹 지주회사." },
+    { "id": "korean_air", "label": "대한항공", "type": "cash_cow", "asset": 25000000000000, "listed": true, "ticker": "003490", "description": "국적항공사. 아시아나항공 인수." },
+    { "id": "hanjin", "label": "한진㈜", "type": "affiliate", "asset": 3000000000000, "listed": true, "ticker": "002320", "description": "물류·육상운송." },
+    { "id": "hj_cargo", "label": "한진인터내셔널", "type": "affiliate", "asset": 500000000000, "listed": false, "description": "국제물류. 비상장." }
+  ],
+  "edges": [
+    { "source": "hj_owner", "target": "hj_kal", "weight": 28.9, "type": "direct_ownership", "description": "조원태 일가 → 한진칼" },
+    { "source": "hj_kal", "target": "korean_air", "weight": 30.0, "type": "subsidiary_ownership", "description": "한진칼 → 대한항공" },
+    { "source": "hj_kal", "target": "hanjin", "weight": 22.2, "type": "subsidiary_ownership", "description": "한진칼 → 한진㈜" },
+    { "source": "korean_air", "target": "hj_cargo", "weight": 100.0, "type": "subsidiary_ownership", "description": "대한항공 → 한진인터내셔날" },
+    { "source": "hanjin", "target": "hj_kal", "weight": 5.6, "type": "circular_loop", "description": "한진㈜ → 한진칼 (순환출자)" }
+  ]
+}

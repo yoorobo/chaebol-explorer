@@ -1,0 +1,29 @@
+{
+  "group": {
+    "id": "lg",
+    "name": "LG그룹",
+    "owner": "구광모",
+    "year": 2023,
+    "description": "(주)LG 지주회사 체제. 순환출자 대부분 해소. 지주회사 전환 모범 사례."
+  },
+  "nodes": [
+    { "id": "owner", "label": "구광모 일가", "type": "individual", "asset": 0, "listed": false, "description": "LG그룹 4세 총수. (주)LG 15.95% 직접 보유." },
+    { "id": "lg_hold", "label": "(주)LG", "type": "holding_like", "asset": 12000000000000, "listed": true, "ticker": "003550", "description": "공식 지주회사. 순수 지주 구조." },
+    { "id": "lge", "label": "LG전자", "type": "cash_cow", "asset": 35000000000000, "listed": true, "ticker": "066570", "description": "가전·전장 핵심 계열사." },
+    { "id": "lgchem", "label": "LG화학", "type": "cash_cow", "asset": 40000000000000, "listed": true, "ticker": "051910", "description": "배터리·소재 핵심 계열사. LG에너지솔루션 모회사." },
+    { "id": "lguplus", "label": "LG유플러스", "type": "affiliate", "asset": 10000000000000, "listed": true, "ticker": "032640", "description": "통신 계열사." },
+    { "id": "lgensol", "label": "LG에너지솔루션", "type": "cash_cow", "asset": 60000000000000, "listed": true, "ticker": "373220", "description": "배터리 전문 상장 자회사. LG화학 80.02% 보유." },
+    { "id": "lgdisp", "label": "LG디스플레이", "type": "affiliate", "asset": 15000000000000, "listed": true, "ticker": "034220", "description": "디스플레이 계열사." },
+    { "id": "lg_welfare", "label": "LG복지재단", "type": "foundation", "asset": 0, "listed": false, "description": "공익재단." }
+  ],
+  "edges": [
+    { "source": "owner", "target": "lg_hold", "weight": 15.95, "type": "direct_ownership", "description": "구광모 일가의 (주)LG 직접 지분" },
+    { "source": "owner", "target": "lg_welfare", "weight": 100.0, "type": "control", "description": "LG복지재단 실질 통제" },
+    { "source": "lg_hold", "target": "lge", "weight": 33.67, "type": "subsidiary_ownership", "description": "(주)LG → LG전자" },
+    { "source": "lg_hold", "target": "lgchem", "weight": 33.49, "type": "subsidiary_ownership", "description": "(주)LG → LG화학" },
+    { "source": "lg_hold", "target": "lguplus", "weight": 36.05, "type": "subsidiary_ownership", "description": "(주)LG → LG유플러스" },
+    { "source": "lg_hold", "target": "lgdisp", "weight": 37.91, "type": "subsidiary_ownership", "description": "(주)LG → LG디스플레이" },
+    { "source": "lgchem", "target": "lgensol", "weight": 80.02, "type": "subsidiary_ownership", "description": "LG화학 → LG에너지솔루션 (자회사 IPO 후 유지)" },
+    { "source": "lg_welfare", "target": "lg_hold", "weight": 2.78, "type": "foundation_ownership", "description": "LG복지재단 → (주)LG (지배력 보강)" }
+  ]
+}

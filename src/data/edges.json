@@ -1,0 +1,93 @@
+[
+  {
+    "source": "owner",
+    "target": "cheil",
+    "weight": 42.17,
+    "type": "direct_ownership",
+    "description": "총수 일가의 제일모직 직접 지분 42.17%"
+  },
+  {
+    "source": "cheil",
+    "target": "samsung_life",
+    "weight": 19.3,
+    "type": "subsidiary_ownership",
+    "description": "제일모직의 삼성생명 지분 19.3%"
+  },
+  {
+    "source": "samsung_life",
+    "target": "samsung_elec",
+    "weight": 7.21,
+    "type": "subsidiary_ownership",
+    "description": "삼성생명의 삼성전자 지분 7.21% (금융계열사의 주력 계열사 지배 — 금산분리 리스크)"
+  },
+  {
+    "source": "cheil",
+    "target": "samsung_ct",
+    "weight": 5.0,
+    "type": "subsidiary_ownership",
+    "description": "제일모직의 삼성물산 지분 5.0%"
+  },
+  {
+    "source": "samsung_ct",
+    "target": "samsung_elec",
+    "weight": 4.06,
+    "type": "subsidiary_ownership",
+    "description": "삼성물산의 삼성전자 지분 4.06%"
+  },
+  {
+    "source": "samsung_elec",
+    "target": "cheil",
+    "weight": 1.2,
+    "type": "circular_loop",
+    "description": "삼성전자의 제일모직 자사주 보유 1.2% — 순환출자 고리의 핵심 연결고리"
+  },
+  {
+    "source": "owner",
+    "target": "samsung_elec",
+    "weight": 4.74,
+    "type": "direct_ownership",
+    "description": "총수 일가의 삼성전자 직접 지분 4.74% (매우 적은 직접 소유)"
+  },
+  {
+    "source": "cheil",
+    "target": "samsung_fire",
+    "weight": 15.2,
+    "type": "subsidiary_ownership",
+    "description": "제일모직의 삼성화재 지분 15.2%"
+  },
+  {
+    "source": "samsung_fire",
+    "target": "samsung_elec",
+    "weight": 1.26,
+    "type": "subsidiary_ownership",
+    "description": "삼성화재의 삼성전자 지분 1.26%"
+  },
+  {
+    "source": "samsung_elec",
+    "target": "samsung_sdi",
+    "weight": 20.4,
+    "type": "subsidiary_ownership",
+    "description": "삼성전자의 삼성SDI 지분 20.4%"
+  },
+  {
+    "source": "samsung_sdi",
+    "target": "cheil",
+    "weight": 0.8,
+    "type": "circular_loop",
+    "description": "삼성SDI의 제일모직 지분 0.8% — 2차 순환출자 고리"
+  },
+  {
+    "source": "samsung_welfare",
+    "target": "samsung_elec",
+    "weight": 0.45,
+    "type": "foundation_ownership",
+    "description": "삼성복지재단의 삼성전자 지분 0.45% — 공익재단을 통한 우회 지배"
+  },
+  {
+    "source": "owner",
+    "target": "samsung_welfare",
+    "weight": 100.0,
+    "type": "control",
+    "description": "총수 일가의 삼성복지재단 실질 통제"
+  }
+]

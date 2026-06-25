@@ -1,0 +1,785 @@
+{
+  "generatedAt": "2026-05-25T03:33:41.685469Z",
+  "ocrRowCount": 18,
+  "geminiEdgeCount": 102,
+  "exactMatchCount": 0,
+  "exactMatch": [],
+  "partialMatchCount": 1,
+  "partialMatch": [
+    {
+      "ocrRow": 6,
+      "sourceName": "삼성",
+      "targetName": "에스비티엠",
+      "rawPercent": "16.3",
+      "sourceMatched": false,
+      "targetMatched": true
+    }
+  ],
+  "ocrRowsToDiscardCount": 18,
+  "ocrRowsToDiscard": [
+    {
+      "ocrRow": 2,
+      "sourceName": "삼성 18",
+      "targetName": "삼성에프엔 0",
+      "rawPercent": "18.7"
+    },
+    {
+      "ocrRow": 3,
+      "sourceName": "제일 3",
+      "targetName": "삼성 1",
+      "rawPercent": "3"
+    },
+    {
+      "ocrRow": 4,
+      "sourceName": "멀티 삼성 67",
+      "targetName": "휴먼 0",
+      "rawPercent": "67.5"
+    },
+    {
+      "ocrRow": 5,
+      "sourceName": "삼성",
+      "targetName": "삼성카드 100",
+      "rawPercent": "100"
+    },
+    {
+      "ocrRow": 6,
+      "sourceName": "삼성",
+      "targetName": "에스비티엠",
+      "rawPercent": "16.3"
+    },
+    {
+      "ocrRow": 7,
+      "sourceName": "삼성 1",
+      "targetName": "삼성 17",
+      "rawPercent": "1.9"
+    },
+    {
+      "ocrRow": 8,
+      "sourceName": "삼성 1",
+      "targetName": "삼성 17",
+      "rawPercent": "1.3"
+    },
+    {
+      "ocrRow": 9,
+      "sourceName": "삼성 1",
+      "targetName": "제일 3",
+      "rawPercent": "1"
+    },
+    {
+      "ocrRow": 10,
+      "sourceName": "삼성 16",
+      "targetName": "삼성",
+      "rawPercent": "16.7"
+    },
+    {
+      "ocrRow": 11,
+      "sourceName": "삼성 3",
+      "targetName": "호텔 1",
+      "rawPercent": "3"
+    },
+    {
+      "ocrRow": 12,
+      "sourceName": "삼성 31",
+      "targetName": "삼성화재 삼성화재 삼성화재",
+      "rawPercent": "31.2"
+    },
+    {
+      "ocrRow": 13,
+      "sourceName": "삼성에프엔 0",
+      "targetName": "삼성",
+      "rawPercent": "0.4"
+    },
+    {
+      "ocrRow": 14,
+      "sourceName": "삼성전자 100 100",
+      "targetName": "멀티 삼성 67",
+      "rawPercent": "100"
+    },
+    {
+      "ocrRow": 15,
+      "sourceName": "삼성전자 100 100",
+      "targetName": "멀티 삼성 67",
+      "rawPercent": "50"
+    },
+    {
+      "ocrRow": 16,
+      "sourceName": "삼성전자 50",
+      "targetName": "에스유 에스디",
+      "rawPercent": "50"
+    },
+    {
+      "ocrRow": 17,
+      "sourceName": "삼성카드 100",
+      "targetName": "미라콤 83",
+      "rawPercent": "100"
+    },
+    {
+      "ocrRow": 18,
+      "sourceName": "은 상장회사",
+      "targetName": "삼성",
+      "rawPercent": "1"
+    },
+    {
+      "ocrRow": 19,
+      "sourceName": "호텔 1",
+      "targetName": "삼성생명 삼성",
+      "rawPercent": "1.3"
+    }
+  ],
+  "geminiOnlyEdgeCount": 102,
+  "geminiOnlyEdges": [
+    {
+      "sourceName": "동일인(이재용)",
+      "targetName": "삼성물산",
+      "rawPercent": 19.8
+    },
+    {
+      "sourceName": "동일인(이재용)",
+      "targetName": "삼성생명보험",
+      "rawPercent": 10.4
+    },
+    {
+      "sourceName": "동일인(이재용)",
+      "targetName": "삼성에스디에스",
+      "rawPercent": 9.2
+    },
+    {
+      "sourceName": "동일인(이재용)",
+      "targetName": "삼성전자",
+      "rawPercent": 1.5
+    },
+    {
+      "sourceName": "동일인(이재용)",
+      "targetName": "삼성이앤에이",
+      "rawPercent": 1.5
+    },
+    {
+      "sourceName": "동일인(이재용)",
+      "targetName": "삼성화재해상보험",
+      "rawPercent": 0.1
+    },
+    {
+      "sourceName": "삼성물산",
+      "targetName": "삼성바이오로직스",
+      "rawPercent": 43.1
+    },
+    {
+      "sourceName": "삼성물산",
+      "targetName": "삼성생명보험",
+      "rawPercent": 19.3
+    },
+    {
+      "sourceName": "삼성물산",
+      "targetName": "삼성에스디에스",
+      "rawPercent": 17.1
+    },
+    {
+      "sourceName": "삼성물산",
+      "targetName": "삼성이앤에이",
+      "rawPercent": 7.0
+    },
+    {
+      "sourceName": "삼성물산",
+      "targetName": "삼성전자",
+      "rawPercent": 4.4
+    },
+    {
+      "sourceName": "삼성물산",
+      "targetName": "삼성벤처투자",
+      "rawPercent": 16.7
+    },
+    {
+      "sourceName": "삼성물산",
+      "targetName": "삼성글로벌리서치",
+      "rawPercent": 1.0
+    },
+    {
+      "sourceName": "삼성물산",
+      "targetName": "삼성중공업",
+      "rawPercent": 0.1
+    },
+    {
+      "sourceName": "삼성물산",
+      "targetName": "서울레이크사이드",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성물산",
+      "targetName": "제일패션리테일",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성물산",
+      "targetName": "삼우종합건축사사무소",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성물산",
+      "targetName": "삼성웰스토리",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성생명보험",
+      "targetName": "삼성카드",
+      "rawPercent": 71.9
+    },
+    {
+      "sourceName": "삼성생명보험",
+      "targetName": "삼성증권",
+      "rawPercent": 29.4
+    },
+    {
+      "sourceName": "삼성생명보험",
+      "targetName": "삼성화재해상보험",
+      "rawPercent": 14.5
+    },
+    {
+      "sourceName": "삼성생명보험",
+      "targetName": "삼성전자",
+      "rawPercent": 7.5
+    },
+    {
+      "sourceName": "삼성생명보험",
+      "targetName": "호텔신라",
+      "rawPercent": 7.2
+    },
+    {
+      "sourceName": "삼성생명보험",
+      "targetName": "에스원",
+      "rawPercent": 5.3
+    },
+    {
+      "sourceName": "삼성생명보험",
+      "targetName": "삼성중공업",
+      "rawPercent": 2.9
+    },
+    {
+      "sourceName": "삼성생명보험",
+      "targetName": "삼성글로벌리서치",
+      "rawPercent": 14.8
+    },
+    {
+      "sourceName": "삼성생명보험",
+      "targetName": "삼성에프앤위탁관리부동산투자회사",
+      "rawPercent": 19.5
+    },
+    {
+      "sourceName": "삼성생명보험",
+      "targetName": "삼성에스알에이자산운용",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성생명보험",
+      "targetName": "삼성생명금융서비스",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성생명보험",
+      "targetName": "삼성자산운용",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성생명보험",
+      "targetName": "삼성생명서비스손해사정",
+      "rawPercent": 99.8
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "삼성디스플레이",
+      "rawPercent": 84.8
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "삼성바이오로직스",
+      "rawPercent": 31.2
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "제일기획",
+      "rawPercent": 25.2
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "삼성전기",
+      "rawPercent": 22.8
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "삼성에스디에스",
+      "rawPercent": 22.6
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "삼성에스디아이",
+      "rawPercent": 19.1
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "삼성벤처투자",
+      "rawPercent": 16.3
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "삼성중공업",
+      "rawPercent": 15.2
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "삼성글로벌리서치",
+      "rawPercent": 29.8
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "호텔신라",
+      "rawPercent": 5.0
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "미라콤아이앤씨",
+      "rawPercent": 0.6
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "에스코어",
+      "rawPercent": 0.6
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "삼성메디슨",
+      "rawPercent": 68.5
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "세메스",
+      "rawPercent": 91.5
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "스테코",
+      "rawPercent": 70.0
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "희망별숲",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "삼성전자판매",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "삼성전자서비스",
+      "rawPercent": 99.3
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "삼성전자로지텍",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성전자",
+      "targetName": "삼성전자서비스씨에스",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성화재해상보험",
+      "targetName": "삼성글로벌리서치",
+      "rawPercent": 29.6
+    },
+    {
+      "sourceName": "삼성화재해상보험",
+      "targetName": "삼성에프앤위탁관리부동산투자회사",
+      "rawPercent": 18.7
+    },
+    {
+      "sourceName": "삼성화재해상보험",
+      "targetName": "삼성벤처투자",
+      "rawPercent": 17.0
+    },
+    {
+      "sourceName": "삼성화재해상보험",
+      "targetName": "삼성전자",
+      "rawPercent": 1.3
+    },
+    {
+      "sourceName": "삼성화재해상보험",
+      "targetName": "에스원",
+      "rawPercent": 1.0
+    },
+    {
+      "sourceName": "삼성화재해상보험",
+      "targetName": "삼성화재금융서비스보험대리점",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성화재해상보험",
+      "targetName": "삼성화재서비스손해사정",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성화재해상보험",
+      "targetName": "삼성화재애니카손해사정",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성에스디아이",
+      "targetName": "삼성디스플레이",
+      "rawPercent": 15.2
+    },
+    {
+      "sourceName": "삼성에스디아이",
+      "targetName": "삼성글로벌리서치",
+      "rawPercent": 23.8
+    },
+    {
+      "sourceName": "삼성에스디아이",
+      "targetName": "삼성이앤에이",
+      "rawPercent": 11.7
+    },
+    {
+      "sourceName": "삼성에스디아이",
+      "targetName": "에스원",
+      "rawPercent": 11.0
+    },
+    {
+      "sourceName": "삼성에스디아이",
+      "targetName": "삼성중공업",
+      "rawPercent": 0.4
+    },
+    {
+      "sourceName": "삼성에스디아이",
+      "targetName": "호텔신라",
+      "rawPercent": 0.1
+    },
+    {
+      "sourceName": "삼성에스디아이",
+      "targetName": "에스티엠",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성에스디아이",
+      "targetName": "에스디플렉스",
+      "rawPercent": 50.0
+    },
+    {
+      "sourceName": "삼성에스디에스",
+      "targetName": "미라콤아이앤씨",
+      "rawPercent": 83.6
+    },
+    {
+      "sourceName": "삼성에스디에스",
+      "targetName": "에스코어",
+      "rawPercent": 81.8
+    },
+    {
+      "sourceName": "삼성에스디에스",
+      "targetName": "시큐아이",
+      "rawPercent": 56.5
+    },
+    {
+      "sourceName": "삼성에스디에스",
+      "targetName": "멀티캠퍼스",
+      "rawPercent": 47.2
+    },
+    {
+      "sourceName": "삼성에스디에스",
+      "targetName": "씨브이네트",
+      "rawPercent": 40.1
+    },
+    {
+      "sourceName": "삼성에스디에스",
+      "targetName": "에스원",
+      "rawPercent": 9.2
+    },
+    {
+      "sourceName": "삼성에스디에스",
+      "targetName": "오픈핸즈",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성전기",
+      "targetName": "삼성벤처투자",
+      "rawPercent": 17.0
+    },
+    {
+      "sourceName": "삼성전기",
+      "targetName": "삼성중공업",
+      "rawPercent": 2.1
+    },
+    {
+      "sourceName": "삼성중공업",
+      "targetName": "삼성벤처투자",
+      "rawPercent": 16.7
+    },
+    {
+      "sourceName": "삼성중공업",
+      "targetName": "삼성글로벌리서치",
+      "rawPercent": 1.0
+    },
+    {
+      "sourceName": "삼성중공업",
+      "targetName": "삼성에프앤위탁관리부동산투자회사",
+      "rawPercent": 0.7
+    },
+    {
+      "sourceName": "삼성카드",
+      "targetName": "에스원",
+      "rawPercent": 1.9
+    },
+    {
+      "sourceName": "삼성카드",
+      "targetName": "삼성카드고객서비스",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성증권",
+      "targetName": "호텔신라",
+      "rawPercent": 3.0
+    },
+    {
+      "sourceName": "삼성증권",
+      "targetName": "삼성에프앤위탁관리부동산투자회사",
+      "rawPercent": 0.4
+    },
+    {
+      "sourceName": "삼성증권",
+      "targetName": "삼성선물",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "호텔신라",
+      "targetName": "에이치디씨신라면세점",
+      "rawPercent": 50.0
+    },
+    {
+      "sourceName": "호텔신라",
+      "targetName": "신라에이치엠",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "호텔신라",
+      "targetName": "에스비티엠",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "호텔신라",
+      "targetName": "에스에이치피코퍼레이션",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "에스원",
+      "targetName": "씨브이네트",
+      "rawPercent": 9.4
+    },
+    {
+      "sourceName": "에스원",
+      "targetName": "미라콤아이앤씨",
+      "rawPercent": 5.4
+    },
+    {
+      "sourceName": "에스원",
+      "targetName": "에스코어",
+      "rawPercent": 5.2
+    },
+    {
+      "sourceName": "에스원",
+      "targetName": "호텔신라",
+      "rawPercent": 1.3
+    },
+    {
+      "sourceName": "에스원",
+      "targetName": "에스원씨알엠",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "에스원",
+      "targetName": "휴먼티에스에스",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "제일기획",
+      "targetName": "삼성라이온즈",
+      "rawPercent": 67.5
+    },
+    {
+      "sourceName": "제일기획",
+      "targetName": "수원삼성축구단",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성디스플레이",
+      "targetName": "삼성코닝어드밴스드글라스",
+      "rawPercent": 50.0
+    },
+    {
+      "sourceName": "삼성디스플레이",
+      "targetName": "삼성에스유머티리얼스",
+      "rawPercent": 50.0
+    },
+    {
+      "sourceName": "삼성글로벌리서치",
+      "targetName": "멀티캠퍼스",
+      "rawPercent": 15.2
+    },
+    {
+      "sourceName": "삼성바이오로직스",
+      "targetName": "삼성바이오에피스",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성자산운용",
+      "targetName": "삼성헤지자산운용",
+      "rawPercent": 100.0
+    },
+    {
+      "sourceName": "삼성자산운용",
+      "targetName": "삼성액티브자산운용",
+      "rawPercent": 100.0
+    }
+  ],
+  "ocrPollutedNameCasesCount": 17,
+  "ocrPollutedNameCases": [
+    {
+      "ocrRow": 2,
+      "sourceName": "삼성 18",
+      "targetName": "삼성에프엔 0",
+      "reasons": [
+        "contains_digits_in_name"
+      ]
+    },
+    {
+      "ocrRow": 3,
+      "sourceName": "제일 3",
+      "targetName": "삼성 1",
+      "reasons": [
+        "contains_digits_in_name"
+      ]
+    },
+    {
+      "ocrRow": 4,
+      "sourceName": "멀티 삼성 67",
+      "targetName": "휴먼 0",
+      "reasons": [
+        "contains_digits_in_name",
+        "merged_tokens"
+      ]
+    },
+    {
+      "ocrRow": 5,
+      "sourceName": "삼성",
+      "targetName": "삼성카드 100",
+      "reasons": [
+        "contains_digits_in_name"
+      ]
+    },
+    {
+      "ocrRow": 7,
+      "sourceName": "삼성 1",
+      "targetName": "삼성 17",
+      "reasons": [
+        "contains_digits_in_name"
+      ]
+    },
+    {
+      "ocrRow": 8,
+      "sourceName": "삼성 1",
+      "targetName": "삼성 17",
+      "reasons": [
+        "contains_digits_in_name"
+      ]
+    },
+    {
+      "ocrRow": 9,
+      "sourceName": "삼성 1",
+      "targetName": "제일 3",
+      "reasons": [
+        "contains_digits_in_name"
+      ]
+    },
+    {
+      "ocrRow": 10,
+      "sourceName": "삼성 16",
+      "targetName": "삼성",
+      "reasons": [
+        "contains_digits_in_name"
+      ]
+    },
+    {
+      "ocrRow": 11,
+      "sourceName": "삼성 3",
+      "targetName": "호텔 1",
+      "reasons": [
+        "contains_digits_in_name"
+      ]
+    },
+    {
+      "ocrRow": 12,
+      "sourceName": "삼성 31",
+      "targetName": "삼성화재 삼성화재 삼성화재",
+      "reasons": [
+        "contains_digits_in_name",
+        "merged_tokens"
+      ]
+    },
+    {
+      "ocrRow": 13,
+      "sourceName": "삼성에프엔 0",
+      "targetName": "삼성",
+      "reasons": [
+        "contains_digits_in_name"
+      ]
+    },
+    {
+      "ocrRow": 14,
+      "sourceName": "삼성전자 100 100",
+      "targetName": "멀티 삼성 67",
+      "reasons": [
+        "contains_digits_in_name",
+        "merged_tokens"
+      ]
+    },
+    {
+      "ocrRow": 15,
+      "sourceName": "삼성전자 100 100",
+      "targetName": "멀티 삼성 67",
+      "reasons": [
+        "contains_digits_in_name",
+        "merged_tokens"
+      ]
+    },
+    {
+      "ocrRow": 16,
+      "sourceName": "삼성전자 50",
+      "targetName": "에스유 에스디",
+      "reasons": [
+        "contains_digits_in_name"
+      ]
+    },
+    {
+      "ocrRow": 17,
+      "sourceName": "삼성카드 100",
+      "targetName": "미라콤 83",
+      "reasons": [
+        "contains_digits_in_name"
+      ]
+    },
+    {
+      "ocrRow": 18,
+      "sourceName": "은 상장회사",
+      "targetName": "삼성",
+      "reasons": [
+        "header_text_pollution"
+      ]
+    },
+    {
+      "ocrRow": 19,
+      "sourceName": "호텔 1",
+      "targetName": "삼성생명 삼성",
+      "reasons": [
+        "contains_digits_in_name"
+      ]
+    }
+  ]
+}

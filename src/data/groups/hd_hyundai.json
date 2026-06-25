@@ -1,0 +1,18 @@
+{
+  "group": { "id": "hd_hyundai", "name": "HD현대그룹", "owner": "정기선", "year": 2023, "description": "현대중공업그룹. 조선·에너지·산업기계. HD현대 지주체제." },
+  "nodes": [
+    { "id": "hd_owner", "label": "정기선 일가", "type": "individual", "asset": 0, "listed": false, "description": "HD현대그룹 총수. 정주영 손자." },
+    { "id": "hd_hold", "label": "HD현대㈜", "type": "holding_like", "asset": 20000000000000, "listed": true, "ticker": "267250", "description": "그룹 지주회사. 구 현대중공업지주." },
+    { "id": "hd_ksoe", "label": "HD한국조선해양", "type": "cash_cow", "asset": 40000000000000, "listed": true, "ticker": "009540", "description": "세계 최대 조선사." },
+    { "id": "hd_heavy", "label": "현대중공업", "type": "affiliate", "asset": 15000000000000, "listed": true, "ticker": "329180", "description": "선박·엔진·해양설비." },
+    { "id": "hd_oilbank", "label": "HD현대오일뱅크", "type": "affiliate", "asset": 10000000000000, "listed": false, "description": "정유·석화. 비상장." },
+    { "id": "hd_elec", "label": "HD현대일렉트릭", "type": "affiliate", "asset": 2000000000000, "listed": true, "ticker": "267260", "description": "변압기·전력기기." }
+  ],
+  "edges": [
+    { "source": "hd_owner", "target": "hd_hold", "weight": 25.7, "type": "direct_ownership", "description": "정기선 일가 → HD현대㈜" },
+    { "source": "hd_hold", "target": "hd_ksoe", "weight": 30.0, "type": "subsidiary_ownership", "description": "HD현대 → HD한국조선해양" },
+    { "source": "hd_ksoe", "target": "hd_heavy", "weight": 100.0, "type": "subsidiary_ownership", "description": "HD한국조선해양 → 현대중공업" },
+    { "source": "hd_ksoe", "target": "hd_oilbank", "weight": 74.1, "type": "subsidiary_ownership", "description": "HD한국조선해양 → HD현대오일뱅크" },
+    { "source": "hd_hold", "target": "hd_elec", "weight": 46.9, "type": "subsidiary_ownership", "description": "HD현대 → HD현대일렉트릭" }
+  ]
+}

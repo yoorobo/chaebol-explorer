@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-05-25T04:19:15.186982+00:00",
+  "edgeCount": 102,
+  "nodeCount": 64,
+  "personEdgeCount": 6,
+  "companyEdgeCount": 96,
+  "standaloneNodes": [
+    "하만인터내셔널코리아",
+    "미래로시스템"
+  ],
+  "duplicatePairCount": 0,
+  "duplicatePairs": [],
+  "targetsOverOneCount": 0,
+  "targetsOverOne": [],
+  "maxColumnSumTarget": "삼성글로벌리서치",
+  "maxColumnSum": 1.0,
+  "missingFieldErrors": [],
+  "writeAllowed": true,
+  "blockReasons": [],
+  "dataLabel": "공정위 PDF 기반 추출 후보 데이터"
+}

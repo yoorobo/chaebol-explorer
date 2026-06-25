@@ -1,0 +1,15 @@
+{
+  "summary": {
+    "groupId": "samsung",
+    "presentnYm": null,
+    "unityGrupCode": null,
+    "edgeCount": 0,
+    "maxColumnSum": 0,
+    "invalidEdges": 0,
+    "duplicatePairs": 0,
+    "warnings": [
+      "No KFTC rows found with current candidate parameters (resultCode=00 but totalCount=0)."
+    ]
+  },
+  "edges": []
+}

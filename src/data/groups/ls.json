@@ -1,0 +1,16 @@
+{
+  "group": { "id": "ls", "name": "LS그룹", "owner": "구자은", "year": 2023, "description": "LG에서 분리. 전선·전력·산업기계 전문 그룹." },
+  "nodes": [
+    { "id": "ls_owner", "label": "구자은 일가", "type": "individual", "asset": 0, "listed": false, "description": "LS그룹 회장. LG 구씨 일가 분가." },
+    { "id": "ls_hold", "label": "LS㈜", "type": "holding_like", "asset": 8000000000000, "listed": true, "ticker": "006260", "description": "LS그룹 지주회사." },
+    { "id": "ls_cable", "label": "LS전선", "type": "cash_cow", "asset": 5000000000000, "listed": false, "description": "전력·통신 케이블 제조. 비상장." },
+    { "id": "ls_elec", "label": "LS일렉트릭", "type": "affiliate", "asset": 3000000000000, "listed": true, "ticker": "010120", "description": "전력기기·자동화 솔루션." },
+    { "id": "ls_mtron", "label": "LS엠트론", "type": "affiliate", "asset": 1500000000000, "listed": false, "description": "농기계·사출성형기. 비상장." }
+  ],
+  "edges": [
+    { "source": "ls_owner", "target": "ls_hold", "weight": 33.6, "type": "direct_ownership", "description": "구자은 일가 → LS㈜" },
+    { "source": "ls_hold", "target": "ls_cable", "weight": 100.0, "type": "subsidiary_ownership", "description": "LS㈜ → LS전선 (100%)" },
+    { "source": "ls_hold", "target": "ls_elec", "weight": 46.2, "type": "subsidiary_ownership", "description": "LS㈜ → LS일렉트릭" },
+    { "source": "ls_hold", "target": "ls_mtron", "weight": 100.0, "type": "subsidiary_ownership", "description": "LS㈜ → LS엠트론 (100%)" }
+  ]
+}

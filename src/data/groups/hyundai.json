@@ -1,0 +1,32 @@
+{
+  "group": {
+    "id": "hyundai",
+    "name": "현대자동차그룹",
+    "owner": "정의선",
+    "year": 2023,
+    "description": "현대모비스-현대자동차-기아 삼각 순환출자 구조. 2023년 기준."
+  },
+  "nodes": [
+    { "id": "owner", "label": "정의선 일가", "type": "individual", "asset": 0, "listed": false, "description": "현대차그룹 총수. 현대모비스 0.32% 직접 보유." },
+    { "id": "hmc", "label": "현대자동차", "type": "cash_cow", "asset": 200000000000000, "listed": true, "ticker": "005380", "description": "그룹 핵심. 글로벌 완성차 제조사." },
+    { "id": "kia", "label": "기아", "type": "cash_cow", "asset": 50000000000000, "listed": true, "ticker": "000270", "description": "현대차 계열 완성차. 현대차 33.88% 보유." },
+    { "id": "mobis", "label": "현대모비스", "type": "holding_like", "asset": 40000000000000, "listed": true, "ticker": "012330", "description": "사실상 지주회사 역할. 핵심 부품 계열사." },
+    { "id": "glovis", "label": "현대글로비스", "type": "affiliate", "asset": 5000000000000, "listed": true, "ticker": "086280", "description": "물류 계열사. 총수 일가 지분 집중." },
+    { "id": "wia", "label": "현대위아", "type": "affiliate", "asset": 3000000000000, "listed": true, "ticker": "011210", "description": "자동차부품·기계 계열사." },
+    { "id": "steel", "label": "현대제철", "type": "affiliate", "asset": 12000000000000, "listed": true, "ticker": "004020", "description": "철강 계열사. 자동차용 강판 주력." },
+    { "id": "hcs", "label": "현대건설", "type": "affiliate", "asset": 8000000000000, "listed": true, "ticker": "000720", "description": "건설 계열사." }
+  ],
+  "edges": [
+    { "source": "owner", "target": "glovis", "weight": 23.29, "type": "direct_ownership", "description": "총수 일가의 글로비스 직접 지분 — 핵심 현금 창출원" },
+    { "source": "owner", "target": "mobis", "weight": 0.32, "type": "direct_ownership", "description": "총수 일가의 모비스 직접 지분 (극히 적음)" },
+    { "source": "mobis", "target": "hmc", "weight": 21.43, "type": "subsidiary_ownership", "description": "현대모비스 → 현대자동차 (지배 핵심 경로)" },
+    { "source": "mobis", "target": "kia", "weight": 16.96, "type": "subsidiary_ownership", "description": "현대모비스 → 기아" },
+    { "source": "hmc", "target": "kia", "weight": 33.88, "type": "subsidiary_ownership", "description": "현대자동차 → 기아" },
+    { "source": "hmc", "target": "mobis", "weight": 19.73, "type": "circular_loop", "description": "현대자동차 → 현대모비스 (삼각 순환출자 고리)" },
+    { "source": "kia", "target": "mobis", "weight": 16.88, "type": "circular_loop", "description": "기아 → 현대모비스 (삼각 순환출자 고리)" },
+    { "source": "hmc", "target": "steel", "weight": 33.98, "type": "subsidiary_ownership", "description": "현대자동차 → 현대제철" },
+    { "source": "hmc", "target": "wia", "weight": 38.65, "type": "subsidiary_ownership", "description": "현대자동차 → 현대위아" },
+    { "source": "hmc", "target": "hcs", "weight": 31.47, "type": "subsidiary_ownership", "description": "현대자동차 → 현대건설" },
+    { "source": "glovis", "target": "mobis", "weight": 0.67, "type": "subsidiary_ownership", "description": "현대글로비스 → 현대모비스 (소량)" }
+  ]
+}

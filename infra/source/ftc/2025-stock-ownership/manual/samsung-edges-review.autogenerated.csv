@@ -1,0 +1,19 @@
+include,sourceName,targetName,rawPercent,weight,edgeType,sourceRef,confidence,note
+false,삼성 18,삼성에프엔 0,18.7,0.187000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,medium,PDF line 21 heuristic extraction candidate
+false,제일 3,삼성 1,3,0.030000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,medium,PDF line 45 heuristic extraction candidate
+false,멀티 삼성 67,휴먼 0,67.5,0.675000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 60 heuristic extraction candidate
+false,삼성,삼성카드 100,100,1.000000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 54 heuristic extraction candidate
+false,삼성,에스비티엠,16.3,0.163000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 32 heuristic extraction candidate
+false,삼성 1,삼성 17,1.9,0.019000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 45 heuristic extraction candidate
+false,삼성 1,삼성 17,1.3,0.013000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 45 heuristic extraction candidate
+false,삼성 1,제일 3,1,0.010000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 45 heuristic extraction candidate
+false,삼성 16,삼성,16.7,0.167000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 31 heuristic extraction candidate
+false,삼성 3,호텔 1,3,0.030000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 22 heuristic extraction candidate
+false,삼성 31,삼성화재 삼성화재 삼성화재,31.2,0.312000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 31 heuristic extraction candidate
+false,삼성에프엔 0,삼성,0.4,0.004000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 21 heuristic extraction candidate
+false,삼성전자 100 100,멀티 삼성 67,100,1.000000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 60 heuristic extraction candidate
+false,삼성전자 100 100,멀티 삼성 67,50,0.500000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 60 heuristic extraction candidate
+false,삼성전자 50,에스유 에스디,50,0.500000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 69 heuristic extraction candidate
+false,삼성카드 100,미라콤 83,100,1.000000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 54 heuristic extraction candidate
+false,은 상장회사,삼성,1,0.010000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 1 heuristic extraction candidate
+false,호텔 1,삼성생명 삼성,1.3,0.013000,direct_ownership,FTC 2025 붙임3 삼성 소유지분도,low,PDF line 22 heuristic extraction candidate

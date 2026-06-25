@@ -1,0 +1,16 @@
+{
+  "group": { "id": "kolon", "name": "코오롱그룹", "owner": "이웅열", "year": 2023, "description": "섬유·화학·건설·IT 복합 그룹. 코오롱㈜ 지주체제." },
+  "nodes": [
+    { "id": "kl_owner", "label": "이웅열 일가", "type": "individual", "asset": 0, "listed": false, "description": "코오롱그룹 회장." },
+    { "id": "kolon_corp", "label": "코오롱㈜", "type": "holding_like", "asset": 2000000000000, "listed": true, "ticker": "002020", "description": "코오롱그룹 지주회사." },
+    { "id": "kl_ind", "label": "코오롱인더스트리", "type": "cash_cow", "asset": 4000000000000, "listed": true, "ticker": "120110", "description": "아라미드·에어백·패션 소재." },
+    { "id": "kl_global", "label": "코오롱글로벌", "type": "affiliate", "asset": 2000000000000, "listed": true, "ticker": "003070", "description": "건설·유통·스포츠." },
+    { "id": "kl_ens", "label": "코오롱ENS", "type": "affiliate", "asset": 500000000000, "listed": false, "description": "신재생에너지·환경." }
+  ],
+  "edges": [
+    { "source": "kl_owner", "target": "kolon_corp", "weight": 31.7, "type": "direct_ownership", "description": "이웅열 일가 → 코오롱㈜" },
+    { "source": "kolon_corp", "target": "kl_ind", "weight": 34.1, "type": "subsidiary_ownership", "description": "코오롱㈜ → 코오롱인더스트리" },
+    { "source": "kolon_corp", "target": "kl_global", "weight": 54.1, "type": "subsidiary_ownership", "description": "코오롱㈜ → 코오롱글로벌" },
+    { "source": "kl_ind", "target": "kl_ens", "weight": 100.0, "type": "subsidiary_ownership", "description": "코오롱인더스트리 → 코오롱ENS" }
+  ]
+}

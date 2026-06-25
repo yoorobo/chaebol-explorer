@@ -1,0 +1,18 @@
+{
+  "group": { "id": "naver", "name": "네이버그룹", "owner": "이해진", "year": 2023, "description": "검색·커머스·핀테크·AI. 이해진 GIO 체제." },
+  "nodes": [
+    { "id": "nv_owner", "label": "이해진", "type": "individual", "asset": 0, "listed": false, "description": "네이버 창업자·GIO. 지분 4.24% 보유." },
+    { "id": "naver_corp", "label": "네이버㈜", "type": "holding_like", "asset": 10000000000000, "listed": true, "ticker": "035420", "description": "국내 1위 검색·포털 플랫폼." },
+    { "id": "naver_fin", "label": "네이버파이낸셜", "type": "financial", "asset": 2000000000000, "listed": false, "description": "네이버페이·핀테크. 비상장." },
+    { "id": "naver_webtoon", "label": "네이버웹툰", "type": "affiliate", "asset": 1000000000000, "listed": true, "ticker": "WBTN", "description": "글로벌 웹툰 플랫폼. 미국 나스닥 상장." },
+    { "id": "naver_cloud", "label": "네이버클라우드", "type": "affiliate", "asset": 500000000000, "listed": false, "description": "클라우드·AI. 하이퍼클로바X." },
+    { "id": "line_corp", "label": "LINE야후", "type": "affiliate", "asset": 5000000000000, "listed": false, "description": "일본·동남아 메신저·커머스." }
+  ],
+  "edges": [
+    { "source": "nv_owner", "target": "naver_corp", "weight": 4.24, "type": "direct_ownership", "description": "이해진 → 네이버㈜" },
+    { "source": "naver_corp", "target": "naver_fin", "weight": 100.0, "type": "subsidiary_ownership", "description": "네이버㈜ → 네이버파이낸셜 (100%)" },
+    { "source": "naver_corp", "target": "naver_webtoon", "weight": 70.5, "type": "subsidiary_ownership", "description": "네이버㈜ → 네이버웹툰" },
+    { "source": "naver_corp", "target": "naver_cloud", "weight": 100.0, "type": "subsidiary_ownership", "description": "네이버㈜ → 네이버클라우드 (100%)" },
+    { "source": "naver_corp", "target": "line_corp", "weight": 65.0, "type": "subsidiary_ownership", "description": "네이버㈜ → LINE야후 (소프트뱅크와 공동 지배)" }
+  ]
+}

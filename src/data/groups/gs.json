@@ -1,0 +1,18 @@
+{
+  "group": { "id": "gs", "name": "GS그룹", "owner": "허태수", "year": 2023, "description": "GS홀딩스 지주체제. 에너지·유통·건설 중심." },
+  "nodes": [
+    { "id": "gs_owner", "label": "허태수 일가", "type": "individual", "asset": 0, "listed": false, "description": "GS그룹 총수. 허씨 3세 경영체제." },
+    { "id": "gs_hold", "label": "GS홀딩스", "type": "holding_like", "asset": 10000000000000, "listed": true, "ticker": "078930", "description": "GS그룹 지주회사." },
+    { "id": "gs_caltex", "label": "GS칼텍스", "type": "cash_cow", "asset": 30000000000000, "listed": false, "description": "정유·석화. 비상장. 캐시카우." },
+    { "id": "gs_retail", "label": "GS리테일", "type": "affiliate", "asset": 3000000000000, "listed": true, "ticker": "007070", "description": "편의점 GS25·슈퍼마켓." },
+    { "id": "gs_eng", "label": "GS건설", "type": "affiliate", "asset": 5000000000000, "listed": true, "ticker": "006360", "description": "건설·플랜트 계열사." },
+    { "id": "gs_energy", "label": "GS에너지", "type": "affiliate", "asset": 2000000000000, "listed": false, "description": "발전·가스 에너지 계열사." }
+  ],
+  "edges": [
+    { "source": "gs_owner", "target": "gs_hold", "weight": 36.5, "type": "direct_ownership", "description": "허태수 일가 → GS홀딩스" },
+    { "source": "gs_hold", "target": "gs_caltex", "weight": 50.0, "type": "subsidiary_ownership", "description": "GS홀딩스 → GS칼텍스 (50%, 셰브론 50%)" },
+    { "source": "gs_hold", "target": "gs_retail", "weight": 29.0, "type": "subsidiary_ownership", "description": "GS홀딩스 → GS리테일" },
+    { "source": "gs_hold", "target": "gs_eng", "weight": 33.5, "type": "subsidiary_ownership", "description": "GS홀딩스 → GS건설" },
+    { "source": "gs_hold", "target": "gs_energy", "weight": 100.0, "type": "subsidiary_ownership", "description": "GS홀딩스 → GS에너지 (100%)" }
+  ]
+}

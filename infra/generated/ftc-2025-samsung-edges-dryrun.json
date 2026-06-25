@@ -1,0 +1,14 @@
+{
+  "generatedAt": "2026-05-25T01:46:25.763Z",
+  "mode": "dry-run",
+  "sourceCsv": "infra/source/ftc/2025-stock-ownership/manual/samsung-edges-review.csv",
+  "edgeCount": 0,
+  "maxColumnSum": 0,
+  "offendingTargets": [],
+  "duplicatePairs": [],
+  "errors": [
+    "No included rows. Mark include=true/1/y for reviewed rows."
+  ],
+  "writeAllowed": false,
+  "edges": []
+}

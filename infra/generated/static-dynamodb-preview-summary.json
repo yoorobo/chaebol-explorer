@@ -1,0 +1,16 @@
+{
+  "groups": [
+    "hyundai",
+    "lg",
+    "samsung",
+    "sk"
+  ],
+  "NODE": 32,
+  "EDGE": 41,
+  "CYCLE": 5,
+  "SNAPSHOT": 4,
+  "SCORE": 4,
+  "METHOD": 1,
+  "total": 87,
+  "warnings": []
+}

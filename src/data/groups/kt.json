@@ -1,0 +1,18 @@
+{
+  "group": { "id": "kt", "name": "KT그룹", "owner": "김영섭", "year": 2023, "description": "통신·미디어·금융·부동산. 분산 지분 구조 (구 공기업)." },
+  "nodes": [
+    { "id": "kt_corp", "label": "KT㈜", "type": "holding_like", "asset": 20000000000000, "listed": true, "ticker": "030200", "description": "국내 2위 통신사. 분산 주주 구조." },
+    { "id": "kt_sky", "label": "KT스카이라이프", "type": "affiliate", "asset": 500000000000, "listed": true, "ticker": "053210", "description": "위성방송 서비스." },
+    { "id": "kt_estate", "label": "KT에스테이트", "type": "affiliate", "asset": 3000000000000, "listed": false, "description": "부동산 개발·운용. 비상장." },
+    { "id": "bc_card", "label": "BC카드", "type": "financial", "asset": 5000000000000, "listed": false, "description": "신용카드 결제망. 비상장." },
+    { "id": "kt_is", "label": "KT IS", "type": "affiliate", "asset": 300000000000, "listed": false, "description": "IT서비스·시스템통합. 비상장." },
+    { "id": "nb_fund2", "label": "국민연금 외", "type": "foundation", "asset": 0, "listed": false, "description": "국민연금 8.8%·외국인 44% 분산 보유." }
+  ],
+  "edges": [
+    { "source": "nb_fund2", "target": "kt_corp", "weight": 8.8, "type": "direct_ownership", "description": "국민연금 → KT㈜ (최대주주)" },
+    { "source": "kt_corp", "target": "kt_sky", "weight": 49.9, "type": "subsidiary_ownership", "description": "KT → KT스카이라이프" },
+    { "source": "kt_corp", "target": "kt_estate", "weight": 100.0, "type": "subsidiary_ownership", "description": "KT → KT에스테이트 (100%)" },
+    { "source": "kt_corp", "target": "bc_card", "weight": 69.5, "type": "subsidiary_ownership", "description": "KT → BC카드" },
+    { "source": "kt_corp", "target": "kt_is", "weight": 100.0, "type": "subsidiary_ownership", "description": "KT → KT IS (100%)" }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "chaebol-temp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "server": "cd server && npx tsx watch src/index.ts",
+    "sync:dart": "cd server && npx tsx src/api/dartSync.ts",
+    "sync:kftc": "cd server && npx tsx src/api/kftcSync.ts"
+  },
+  "dependencies": {
+    "@antv/g6": "^5.1.1",
+    "@aws-sdk/client-bedrock-runtime": "^3.1052.0",
+    "@aws-sdk/client-dynamodb": "^3.1053.0",
+    "@aws-sdk/lib-dynamodb": "^3.1053.0",
+    "@types/cytoscape": "^3.21.9",
+    "@types/d3": "^7.4.3",
+    "cytoscape": "^3.33.4",
+    "cytoscape-cola": "^2.5.1",
+    "d3": "^7.9.0",
+    "d3-sankey": "^0.12.3",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^24.12.3",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "eslint": "^10.3.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.6.0",
+    "typescript": "~6.0.2",
+    "typescript-eslint": "^8.59.2",
+    "vite": "^8.0.12"
+  }
+}

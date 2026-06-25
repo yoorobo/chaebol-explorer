@@ -1,0 +1,317 @@
+{
+  "generatedAt": "2026-05-25T03:33:41.684462Z",
+  "source": "samsung-edges-gemini-raw.csv",
+  "nodeCount": 62,
+  "nodes": [
+    {
+      "name": "동일인(이재용)",
+      "nodeType": "PERSON",
+      "listed": "unknown"
+    },
+    {
+      "name": "멀티캠퍼스",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "미라콤아이앤씨",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성글로벌리서치",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성디스플레이",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성라이온즈",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성메디슨",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성물산",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성바이오로직스",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성바이오에피스",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성벤처투자",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성생명금융서비스",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성생명보험",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성생명서비스손해사정",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성선물",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성액티브자산운용",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성에스디아이",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성에스디에스",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성에스알에이자산운용",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성에스유머티리얼스",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성에프앤위탁관리부동산투자회사",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성웰스토리",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성이앤에이",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성자산운용",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성전기",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성전자",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성전자로지텍",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성전자서비스",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성전자서비스씨에스",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성전자판매",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성중공업",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성증권",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성카드",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성카드고객서비스",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성코닝어드밴스드글라스",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성헤지자산운용",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성화재금융서비스보험대리점",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성화재서비스손해사정",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성화재애니카손해사정",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼성화재해상보험",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "삼우종합건축사사무소",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "서울레이크사이드",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "세메스",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "수원삼성축구단",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "스테코",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "시큐아이",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "신라에이치엠",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "씨브이네트",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "에스디플렉스",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "에스비티엠",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "에스에이치피코퍼레이션",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "에스원",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "에스원씨알엠",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "에스코어",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "에스티엠",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "에이치디씨신라면세점",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "오픈핸즈",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "제일기획",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "제일패션리테일",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "호텔신라",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "휴먼티에스에스",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    },
+    {
+      "name": "희망별숲",
+      "nodeType": "COMPANY",
+      "listed": "unknown"
+    }
+  ]
+}

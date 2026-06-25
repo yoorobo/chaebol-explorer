@@ -1,0 +1,72 @@
+[
+  {
+    "id": "owner",
+    "label": "이건희 일가 (동일인)",
+    "type": "individual",
+    "asset": 0,
+    "listed": false,
+    "description": "삼성그룹 총수 일가. 제일모직에 42.17% 직접 지분 보유."
+  },
+  {
+    "id": "cheil",
+    "label": "제일모직",
+    "type": "holding_like",
+    "asset": 5000000000000,
+    "listed": true,
+    "ticker": "028260",
+    "description": "실질적 지주회사 역할. 총수 일가 42.17% 지분 보유. 에버랜드 후신."
+  },
+  {
+    "id": "samsung_life",
+    "label": "삼성생명",
+    "type": "financial",
+    "asset": 200000000000000,
+    "listed": true,
+    "ticker": "032830",
+    "description": "금융계열사. 금산분리 규제 대상. 삼성전자 지분 7.21% 보유."
+  },
+  {
+    "id": "samsung_ct",
+    "label": "삼성물산",
+    "type": "affiliate",
+    "asset": 8000000000000,
+    "listed": true,
+    "ticker": "028260",
+    "description": "건설·상사 계열사. 2015년 제일모직과 합병. 삼성전자 지분 4.06% 보유."
+  },
+  {
+    "id": "samsung_elec",
+    "label": "삼성전자",
+    "type": "cash_cow",
+    "asset": 300000000000000,
+    "listed": true,
+    "ticker": "005930",
+    "description": "그룹 핵심 캐시카우. 총수 일가 직접 지분 4.74%에 불과하나 간접 지배력 행사."
+  },
+  {
+    "id": "samsung_fire",
+    "label": "삼성화재",
+    "type": "financial",
+    "asset": 20000000000000,
+    "listed": true,
+    "ticker": "000810",
+    "description": "손해보험 계열사. 금융계열사로 금산분리 규제 대상."
+  },
+  {
+    "id": "samsung_sdi",
+    "label": "삼성SDI",
+    "type": "affiliate",
+    "asset": 15000000000000,
+    "listed": true,
+    "ticker": "006400",
+    "description": "배터리·소재 계열사. 삼성전자 지분 일부 교차 보유."
+  },
+  {
+    "id": "samsung_welfare",
+    "label": "삼성복지재단",
+    "type": "foundation",
+    "asset": 0,
+    "listed": false,
+    "description": "공익재단. 의결권 우회 경로 역할."
+  }
+]

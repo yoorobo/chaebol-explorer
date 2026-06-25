@@ -1,0 +1,13 @@
+{
+  "fetchedAt": "2026-05-25T00:41:26.934Z",
+  "records": [
+    {
+      "endpoint": "innerQotaEqltrmCmprUnityListApi",
+      "url": "https://apis.data.go.kr/1130000/innerQotaEqltrmCmprList/innerQotaEqltrmCmprUnityListApi?serviceKey=23aaee937727c1a7a48bf97b8db53bbdd4290802168ee7b11234ef6f225050f5&presentnYm=202504&unityGrupCode=001&numOfRows=1000&pageNo=1",
+      "presentnYm": "202504",
+      "unityGrupCode": "001",
+      "fetchedAt": "2026-05-25T00:41:26.934Z",
+      "xml": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><innerQotaEqltrmCmprUnityList><numOfRows>1000</numOfRows><pageNo>1</pageNo><resultCode>00</resultCode><resultMsg>SUCCESS</resultMsg><totalCount>0</totalCount></innerQotaEqltrmCmprUnityList>"
+    }
+  ]
+}

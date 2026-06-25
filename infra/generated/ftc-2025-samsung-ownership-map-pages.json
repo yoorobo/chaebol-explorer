@@ -1,0 +1,12 @@
+{
+  "sourcePdf": "infra/source/ftc/2025-stock-ownership/extracted/(붙임3) 2025년 기업집단별 소유지분도.pdf",
+  "detectedKeyword": ["삼성", "SAMSUNG"],
+  "samsungPages": [3, 4, 38],
+  "extractedPdf": "infra/generated/ftc-2025-samsung-ownership-map.pdf",
+  "extractedPng": [
+    "infra/generated/ftc-2025-samsung-ownership-map-page3-03.png",
+    "infra/generated/ftc-2025-samsung-ownership-map-page4-04.png",
+    "infra/generated/ftc-2025-samsung-ownership-map-page38-38.png"
+  ],
+  "note": "Keyword-based page detection; manual visual confirmation required."
+}

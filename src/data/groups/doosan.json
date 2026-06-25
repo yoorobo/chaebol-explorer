@@ -1,0 +1,16 @@
+{
+  "group": { "id": "doosan", "name": "두산그룹", "owner": "박정원", "year": 2023, "description": "에너지·건설기계·방산. 워크아웃 후 재건 중." },
+  "nodes": [
+    { "id": "ds_owner", "label": "박정원 일가", "type": "individual", "asset": 0, "listed": false, "description": "두산그룹 회장. 박용만 사촌형." },
+    { "id": "doosan_corp", "label": "두산㈜", "type": "holding_like", "asset": 5000000000000, "listed": true, "ticker": "000150", "description": "두산그룹 지주회사." },
+    { "id": "ds_enerbility", "label": "두산에너빌리티", "type": "cash_cow", "asset": 12000000000000, "listed": true, "ticker": "034020", "description": "원전·가스터빈·풍력. 구 두산중공업." },
+    { "id": "ds_bobcat", "label": "두산밥캣", "type": "affiliate", "asset": 5000000000000, "listed": true, "ticker": "241560", "description": "소형건설기계. 글로벌 1위." },
+    { "id": "ds_robotics", "label": "두산로보틱스", "type": "affiliate", "asset": 500000000000, "listed": true, "ticker": "454910", "description": "협동로봇 제조." }
+  ],
+  "edges": [
+    { "source": "ds_owner", "target": "doosan_corp", "weight": 32.4, "type": "direct_ownership", "description": "박정원 일가 → 두산㈜" },
+    { "source": "doosan_corp", "target": "ds_enerbility", "weight": 30.4, "type": "subsidiary_ownership", "description": "두산㈜ → 두산에너빌리티" },
+    { "source": "ds_enerbility", "target": "ds_bobcat", "weight": 46.1, "type": "subsidiary_ownership", "description": "두산에너빌리티 → 두산밥캣" },
+    { "source": "doosan_corp", "target": "ds_robotics", "weight": 38.2, "type": "subsidiary_ownership", "description": "두산㈜ → 두산로보틱스" }
+  ]
+}

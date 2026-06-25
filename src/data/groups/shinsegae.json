@@ -1,0 +1,18 @@
+{
+  "group": { "id": "shinsegae", "name": "신세계그룹", "owner": "이명희", "year": 2023, "description": "유통 중심. 이마트(정용진)·신세계백화점(정유경) 분리 경영." },
+  "nodes": [
+    { "id": "ss_owner", "label": "이명희 일가", "type": "individual", "asset": 0, "listed": false, "description": "신세계그룹 총수. 이건희 여동생." },
+    { "id": "ss_corp", "label": "신세계㈜", "type": "holding_like", "asset": 8000000000000, "listed": true, "ticker": "004170", "description": "백화점 지주. 정유경 대표." },
+    { "id": "emart", "label": "이마트", "type": "cash_cow", "asset": 20000000000000, "listed": true, "ticker": "139480", "description": "대형마트·SSG닷컴. 정용진 대표." },
+    { "id": "ss_intl", "label": "신세계인터내셔날", "type": "affiliate", "asset": 1000000000000, "listed": true, "ticker": "031430", "description": "패션·화장품 유통." },
+    { "id": "ssg_pay", "label": "SSG닷컴", "type": "affiliate", "asset": 500000000000, "listed": false, "description": "이커머스. 비상장." },
+    { "id": "starfield", "label": "신세계프라퍼티", "type": "affiliate", "asset": 3000000000000, "listed": false, "description": "스타필드·복합쇼핑몰 운영." }
+  ],
+  "edges": [
+    { "source": "ss_owner", "target": "ss_corp", "weight": 18.3, "type": "direct_ownership", "description": "이명희 일가 → 신세계㈜" },
+    { "source": "ss_owner", "target": "emart", "weight": 6.4, "type": "direct_ownership", "description": "이명희 일가 → 이마트" },
+    { "source": "ss_corp", "target": "ss_intl", "weight": 62.5, "type": "subsidiary_ownership", "description": "신세계 → 신세계인터내셔날" },
+    { "source": "emart", "target": "ssg_pay", "weight": 80.0, "type": "subsidiary_ownership", "description": "이마트 → SSG닷컴" },
+    { "source": "emart", "target": "starfield", "weight": 100.0, "type": "subsidiary_ownership", "description": "이마트 → 신세계프라퍼티" }
+  ]
+}

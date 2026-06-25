@@ -1,0 +1,30 @@
+{
+  "group": {
+    "id": "lotte",
+    "name": "롯데그룹",
+    "owner": "신동빈",
+    "year": 2023,
+    "description": "한-일 복잡한 이중 구조. 롯데지주 중심 개편 진행 중. 2023년 기준."
+  },
+  "nodes": [
+    { "id": "owner", "label": "신동빈 일가", "type": "individual", "asset": 0, "listed": false, "description": "롯데그룹 총수. 롯데지주 10.47% 직접 보유." },
+    { "id": "lotte_hold", "label": "롯데지주", "type": "holding_like", "asset": 8000000000000, "listed": true, "ticker": "004990", "description": "국내 지주회사. 2017년 출범." },
+    { "id": "lotte_shopping", "label": "롯데쇼핑", "type": "cash_cow", "asset": 15000000000000, "listed": true, "ticker": "023530", "description": "유통 핵심. 백화점·마트·시네마." },
+    { "id": "lotte_chem", "label": "롯데케미칼", "type": "cash_cow", "asset": 12000000000000, "listed": true, "ticker": "011170", "description": "화학 핵심 계열사." },
+    { "id": "lotte_food", "label": "롯데웰푸드", "type": "affiliate", "asset": 3000000000000, "listed": true, "ticker": "280360", "description": "식품 계열사. 구 롯데제과." },
+    { "id": "lotte_hotel", "label": "롯데호텔", "type": "affiliate", "asset": 5000000000000, "listed": false, "description": "호텔·면세 계열사. 비상장." },
+    { "id": "lotte_const", "label": "롯데건설", "type": "affiliate", "asset": 4000000000000, "listed": false, "description": "건설 계열사. 비상장." },
+    { "id": "lotte_welfare", "label": "롯데장학재단", "type": "foundation", "asset": 0, "listed": false, "description": "장학·공익 재단." }
+  ],
+  "edges": [
+    { "source": "owner", "target": "lotte_hold", "weight": 10.47, "type": "direct_ownership", "description": "신동빈 일가의 롯데지주 직접 지분" },
+    { "source": "owner", "target": "lotte_welfare", "weight": 100.0, "type": "control", "description": "롯데장학재단 실질 통제" },
+    { "source": "lotte_hold", "target": "lotte_shopping", "weight": 43.32, "type": "subsidiary_ownership", "description": "롯데지주 → 롯데쇼핑" },
+    { "source": "lotte_hold", "target": "lotte_chem", "weight": 53.55, "type": "subsidiary_ownership", "description": "롯데지주 → 롯데케미칼" },
+    { "source": "lotte_hold", "target": "lotte_food", "weight": 50.31, "type": "subsidiary_ownership", "description": "롯데지주 → 롯데웰푸드" },
+    { "source": "lotte_hold", "target": "lotte_hotel", "weight": 82.76, "type": "subsidiary_ownership", "description": "롯데지주 → 롯데호텔" },
+    { "source": "lotte_hold", "target": "lotte_const", "weight": 76.40, "type": "subsidiary_ownership", "description": "롯데지주 → 롯데건설" },
+    { "source": "lotte_shopping", "target": "lotte_hold", "weight": 3.25, "type": "circular_loop", "description": "롯데쇼핑 → 롯데지주 (잔존 순환 고리)" },
+    { "source": "lotte_welfare", "target": "lotte_hold", "weight": 1.82, "type": "foundation_ownership", "description": "롯데장학재단 → 롯데지주 (재단을 통한 우회 지배)" }
+  ]
+}

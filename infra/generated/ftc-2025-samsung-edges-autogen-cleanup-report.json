@@ -1,0 +1,626 @@
+{
+  "summary": {
+    "totalRows": 18,
+    "weirdNameRows": 17,
+    "duplicatePairGroups": 2,
+    "exactDuplicateGroups": 0,
+    "columnSumOverTargets": 1,
+    "lowConfidenceRows": 16,
+    "humanReviewRows": 18
+  },
+  "weirdCompanyNames": [
+    {
+      "row": 2,
+      "sourceName": "삼성 18",
+      "targetName": "삼성에프엔 0",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [
+        "contains_digits"
+      ],
+      "rawPercent": "18.7",
+      "confidence": "medium"
+    },
+    {
+      "row": 3,
+      "sourceName": "제일 3",
+      "targetName": "삼성 1",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [
+        "contains_digits"
+      ],
+      "rawPercent": "3",
+      "confidence": "medium"
+    },
+    {
+      "row": 4,
+      "sourceName": "멀티 삼성 67",
+      "targetName": "휴먼 0",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [
+        "contains_digits"
+      ],
+      "rawPercent": "67.5",
+      "confidence": "low"
+    },
+    {
+      "row": 5,
+      "sourceName": "삼성",
+      "targetName": "삼성카드 100",
+      "sourceIssues": [],
+      "targetIssues": [
+        "contains_digits"
+      ],
+      "rawPercent": "100",
+      "confidence": "low"
+    },
+    {
+      "row": 7,
+      "sourceName": "삼성 1",
+      "targetName": "삼성 17",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [
+        "contains_digits"
+      ],
+      "rawPercent": "1.9",
+      "confidence": "low"
+    },
+    {
+      "row": 8,
+      "sourceName": "삼성 1",
+      "targetName": "삼성 17",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [
+        "contains_digits"
+      ],
+      "rawPercent": "1.3",
+      "confidence": "low"
+    },
+    {
+      "row": 9,
+      "sourceName": "삼성 1",
+      "targetName": "제일 3",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [
+        "contains_digits"
+      ],
+      "rawPercent": "1",
+      "confidence": "low"
+    },
+    {
+      "row": 10,
+      "sourceName": "삼성 16",
+      "targetName": "삼성",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [],
+      "rawPercent": "16.7",
+      "confidence": "low"
+    },
+    {
+      "row": 11,
+      "sourceName": "삼성 3",
+      "targetName": "호텔 1",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [
+        "contains_digits"
+      ],
+      "rawPercent": "3",
+      "confidence": "low"
+    },
+    {
+      "row": 12,
+      "sourceName": "삼성 31",
+      "targetName": "삼성화재 삼성화재 삼성화재",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [],
+      "rawPercent": "31.2",
+      "confidence": "low"
+    },
+    {
+      "row": 13,
+      "sourceName": "삼성에프엔 0",
+      "targetName": "삼성",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [],
+      "rawPercent": "0.4",
+      "confidence": "low"
+    },
+    {
+      "row": 14,
+      "sourceName": "삼성전자 100 100",
+      "targetName": "멀티 삼성 67",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [
+        "contains_digits"
+      ],
+      "rawPercent": "100",
+      "confidence": "low"
+    },
+    {
+      "row": 15,
+      "sourceName": "삼성전자 100 100",
+      "targetName": "멀티 삼성 67",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [
+        "contains_digits"
+      ],
+      "rawPercent": "50",
+      "confidence": "low"
+    },
+    {
+      "row": 16,
+      "sourceName": "삼성전자 50",
+      "targetName": "에스유 에스디",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [],
+      "rawPercent": "50",
+      "confidence": "low"
+    },
+    {
+      "row": 17,
+      "sourceName": "삼성카드 100",
+      "targetName": "미라콤 83",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [
+        "contains_digits"
+      ],
+      "rawPercent": "100",
+      "confidence": "low"
+    },
+    {
+      "row": 18,
+      "sourceName": "은 상장회사",
+      "targetName": "삼성",
+      "sourceIssues": [
+        "contains_header_text"
+      ],
+      "targetIssues": [],
+      "rawPercent": "1",
+      "confidence": "low"
+    },
+    {
+      "row": 19,
+      "sourceName": "호텔 1",
+      "targetName": "삼성생명 삼성",
+      "sourceIssues": [
+        "contains_digits"
+      ],
+      "targetIssues": [],
+      "rawPercent": "1.3",
+      "confidence": "low"
+    }
+  ],
+  "duplicateEdges": {
+    "duplicatePairs": {
+      "삼성 1 -> 삼성 17": [
+        {
+          "row": 7,
+          "rawPercent": "1.9",
+          "weight": "0.019000",
+          "confidence": "low"
+        },
+        {
+          "row": 8,
+          "rawPercent": "1.3",
+          "weight": "0.013000",
+          "confidence": "low"
+        }
+      ],
+      "삼성전자 100 100 -> 멀티 삼성 67": [
+        {
+          "row": 14,
+          "rawPercent": "100",
+          "weight": "1.000000",
+          "confidence": "low"
+        },
+        {
+          "row": 15,
+          "rawPercent": "50",
+          "weight": "0.500000",
+          "confidence": "low"
+        }
+      ]
+    },
+    "exactDuplicates": {}
+  },
+  "columnSumOverOne": [
+    {
+      "targetName": "멀티 삼성 67",
+      "columnSum": 1.5,
+      "contributors": [
+        {
+          "row": 14,
+          "sourceName": "삼성전자 100 100",
+          "weight": 1.0,
+          "rawPercent": "100",
+          "confidence": "low"
+        },
+        {
+          "row": 15,
+          "sourceName": "삼성전자 100 100",
+          "weight": 0.5,
+          "rawPercent": "50",
+          "confidence": "low"
+        }
+      ]
+    }
+  ],
+  "lowConfidenceCandidates": [
+    {
+      "row": 4,
+      "sourceName": "멀티 삼성 67",
+      "targetName": "휴먼 0",
+      "rawPercent": "67.5",
+      "weight": "0.675000",
+      "note": "PDF line 60 heuristic extraction candidate"
+    },
+    {
+      "row": 5,
+      "sourceName": "삼성",
+      "targetName": "삼성카드 100",
+      "rawPercent": "100",
+      "weight": "1.000000",
+      "note": "PDF line 54 heuristic extraction candidate"
+    },
+    {
+      "row": 6,
+      "sourceName": "삼성",
+      "targetName": "에스비티엠",
+      "rawPercent": "16.3",
+      "weight": "0.163000",
+      "note": "PDF line 32 heuristic extraction candidate"
+    },
+    {
+      "row": 7,
+      "sourceName": "삼성 1",
+      "targetName": "삼성 17",
+      "rawPercent": "1.9",
+      "weight": "0.019000",
+      "note": "PDF line 45 heuristic extraction candidate"
+    },
+    {
+      "row": 8,
+      "sourceName": "삼성 1",
+      "targetName": "삼성 17",
+      "rawPercent": "1.3",
+      "weight": "0.013000",
+      "note": "PDF line 45 heuristic extraction candidate"
+    },
+    {
+      "row": 9,
+      "sourceName": "삼성 1",
+      "targetName": "제일 3",
+      "rawPercent": "1",
+      "weight": "0.010000",
+      "note": "PDF line 45 heuristic extraction candidate"
+    },
+    {
+      "row": 10,
+      "sourceName": "삼성 16",
+      "targetName": "삼성",
+      "rawPercent": "16.7",
+      "weight": "0.167000",
+      "note": "PDF line 31 heuristic extraction candidate"
+    },
+    {
+      "row": 11,
+      "sourceName": "삼성 3",
+      "targetName": "호텔 1",
+      "rawPercent": "3",
+      "weight": "0.030000",
+      "note": "PDF line 22 heuristic extraction candidate"
+    },
+    {
+      "row": 12,
+      "sourceName": "삼성 31",
+      "targetName": "삼성화재 삼성화재 삼성화재",
+      "rawPercent": "31.2",
+      "weight": "0.312000",
+      "note": "PDF line 31 heuristic extraction candidate"
+    },
+    {
+      "row": 13,
+      "sourceName": "삼성에프엔 0",
+      "targetName": "삼성",
+      "rawPercent": "0.4",
+      "weight": "0.004000",
+      "note": "PDF line 21 heuristic extraction candidate"
+    },
+    {
+      "row": 14,
+      "sourceName": "삼성전자 100 100",
+      "targetName": "멀티 삼성 67",
+      "rawPercent": "100",
+      "weight": "1.000000",
+      "note": "PDF line 60 heuristic extraction candidate"
+    },
+    {
+      "row": 15,
+      "sourceName": "삼성전자 100 100",
+      "targetName": "멀티 삼성 67",
+      "rawPercent": "50",
+      "weight": "0.500000",
+      "note": "PDF line 60 heuristic extraction candidate"
+    },
+    {
+      "row": 16,
+      "sourceName": "삼성전자 50",
+      "targetName": "에스유 에스디",
+      "rawPercent": "50",
+      "weight": "0.500000",
+      "note": "PDF line 69 heuristic extraction candidate"
+    },
+    {
+      "row": 17,
+      "sourceName": "삼성카드 100",
+      "targetName": "미라콤 83",
+      "rawPercent": "100",
+      "weight": "1.000000",
+      "note": "PDF line 54 heuristic extraction candidate"
+    },
+    {
+      "row": 18,
+      "sourceName": "은 상장회사",
+      "targetName": "삼성",
+      "rawPercent": "1",
+      "weight": "0.010000",
+      "note": "PDF line 1 heuristic extraction candidate"
+    },
+    {
+      "row": 19,
+      "sourceName": "호텔 1",
+      "targetName": "삼성생명 삼성",
+      "rawPercent": "1.3",
+      "weight": "0.013000",
+      "note": "PDF line 22 heuristic extraction candidate"
+    }
+  ],
+  "humanReviewCandidates": [
+    {
+      "row": 2,
+      "sourceName": "삼성 18",
+      "targetName": "삼성에프엔 0",
+      "rawPercent": "18.7",
+      "weight": "0.187000",
+      "confidence": "medium",
+      "reasonFlags": [
+        "weird_name"
+      ]
+    },
+    {
+      "row": 3,
+      "sourceName": "제일 3",
+      "targetName": "삼성 1",
+      "rawPercent": "3",
+      "weight": "0.030000",
+      "confidence": "medium",
+      "reasonFlags": [
+        "weird_name"
+      ]
+    },
+    {
+      "row": 4,
+      "sourceName": "멀티 삼성 67",
+      "targetName": "휴먼 0",
+      "rawPercent": "67.5",
+      "weight": "0.675000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence"
+      ]
+    },
+    {
+      "row": 5,
+      "sourceName": "삼성",
+      "targetName": "삼성카드 100",
+      "rawPercent": "100",
+      "weight": "1.000000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence"
+      ]
+    },
+    {
+      "row": 6,
+      "sourceName": "삼성",
+      "targetName": "에스비티엠",
+      "rawPercent": "16.3",
+      "weight": "0.163000",
+      "confidence": "low",
+      "reasonFlags": [
+        "low_confidence"
+      ]
+    },
+    {
+      "row": 7,
+      "sourceName": "삼성 1",
+      "targetName": "삼성 17",
+      "rawPercent": "1.9",
+      "weight": "0.019000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence",
+        "duplicate_pair"
+      ]
+    },
+    {
+      "row": 8,
+      "sourceName": "삼성 1",
+      "targetName": "삼성 17",
+      "rawPercent": "1.3",
+      "weight": "0.013000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence",
+        "duplicate_pair"
+      ]
+    },
+    {
+      "row": 9,
+      "sourceName": "삼성 1",
+      "targetName": "제일 3",
+      "rawPercent": "1",
+      "weight": "0.010000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence"
+      ]
+    },
+    {
+      "row": 10,
+      "sourceName": "삼성 16",
+      "targetName": "삼성",
+      "rawPercent": "16.7",
+      "weight": "0.167000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence"
+      ]
+    },
+    {
+      "row": 11,
+      "sourceName": "삼성 3",
+      "targetName": "호텔 1",
+      "rawPercent": "3",
+      "weight": "0.030000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence"
+      ]
+    },
+    {
+      "row": 12,
+      "sourceName": "삼성 31",
+      "targetName": "삼성화재 삼성화재 삼성화재",
+      "rawPercent": "31.2",
+      "weight": "0.312000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence"
+      ]
+    },
+    {
+      "row": 13,
+      "sourceName": "삼성에프엔 0",
+      "targetName": "삼성",
+      "rawPercent": "0.4",
+      "weight": "0.004000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence"
+      ]
+    },
+    {
+      "row": 14,
+      "sourceName": "삼성전자 100 100",
+      "targetName": "멀티 삼성 67",
+      "rawPercent": "100",
+      "weight": "1.000000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence",
+        "duplicate_pair",
+        "column_sum_over_target:멀티 삼성 67"
+      ]
+    },
+    {
+      "row": 15,
+      "sourceName": "삼성전자 100 100",
+      "targetName": "멀티 삼성 67",
+      "rawPercent": "50",
+      "weight": "0.500000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence",
+        "duplicate_pair",
+        "column_sum_over_target:멀티 삼성 67"
+      ]
+    },
+    {
+      "row": 16,
+      "sourceName": "삼성전자 50",
+      "targetName": "에스유 에스디",
+      "rawPercent": "50",
+      "weight": "0.500000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence"
+      ]
+    },
+    {
+      "row": 17,
+      "sourceName": "삼성카드 100",
+      "targetName": "미라콤 83",
+      "rawPercent": "100",
+      "weight": "1.000000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence"
+      ]
+    },
+    {
+      "row": 18,
+      "sourceName": "은 상장회사",
+      "targetName": "삼성",
+      "rawPercent": "1",
+      "weight": "0.010000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence"
+      ]
+    },
+    {
+      "row": 19,
+      "sourceName": "호텔 1",
+      "targetName": "삼성생명 삼성",
+      "rawPercent": "1.3",
+      "weight": "0.013000",
+      "confidence": "low",
+      "reasonFlags": [
+        "weird_name",
+        "low_confidence"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "group": {
+    "id": "sk",
+    "name": "SK그룹",
+    "owner": "최태원",
+    "year": 2023,
+    "description": "SK(주) 지주회사 체제. SK이노베이션·SK하이닉스 2대 축. 2023년 기준."
+  },
+  "nodes": [
+    { "id": "owner", "label": "최태원 일가", "type": "individual", "asset": 0, "listed": false, "description": "SK그룹 총수. SK(주) 18.45% 직접 보유." },
+    { "id": "sk_hold", "label": "SK(주)", "type": "holding_like", "asset": 20000000000000, "listed": true, "ticker": "034730", "description": "그룹 지주회사." },
+    { "id": "sk_hynix", "label": "SK하이닉스", "type": "cash_cow", "asset": 80000000000000, "listed": true, "ticker": "000660", "description": "반도체 핵심 계열사. 글로벌 메모리 2위." },
+    { "id": "sk_innov", "label": "SK이노베이션", "type": "cash_cow", "asset": 25000000000000, "listed": true, "ticker": "096770", "description": "에너지·배터리. SK온(배터리) 모회사." },
+    { "id": "sk_tel", "label": "SK텔레콤", "type": "affiliate", "asset": 20000000000000, "listed": true, "ticker": "017670", "description": "통신 핵심 계열사." },
+    { "id": "sk_networks", "label": "SK네트웍스", "type": "affiliate", "asset": 4000000000000, "listed": true, "ticker": "001740", "description": "무역·렌탈 계열사." },
+    { "id": "sk_on", "label": "SK온", "type": "affiliate", "asset": 10000000000000, "listed": false, "description": "전기차 배터리 전문 비상장 자회사." },
+    { "id": "sk_sqe", "label": "SK스퀘어", "type": "holding_like", "asset": 8000000000000, "listed": true, "ticker": "402340", "description": "투자 지주 자회사. SK하이닉스 지분 보유 경로." }
+  ],
+  "edges": [
+    { "source": "owner", "target": "sk_hold", "weight": 18.45, "type": "direct_ownership", "description": "최태원 일가의 SK(주) 직접 지분" },
+    { "source": "sk_hold", "target": "sk_sqe", "weight": 40.06, "type": "subsidiary_ownership", "description": "SK(주) → SK스퀘어" },
+    { "source": "sk_hold", "target": "sk_innov", "weight": 36.22, "type": "subsidiary_ownership", "description": "SK(주) → SK이노베이션" },
+    { "source": "sk_hold", "target": "sk_networks", "weight": 39.13, "type": "subsidiary_ownership", "description": "SK(주) → SK네트웍스" },
+    { "source": "sk_sqe", "target": "sk_hynix", "weight": 20.07, "type": "subsidiary_ownership", "description": "SK스퀘어 → SK하이닉스 (핵심 지배 경로)" },
+    { "source": "sk_sqe", "target": "sk_tel", "weight": 30.01, "type": "subsidiary_ownership", "description": "SK스퀘어 → SK텔레콤" },
+    { "source": "sk_innov", "target": "sk_on", "weight": 100.0, "type": "subsidiary_ownership", "description": "SK이노베이션 → SK온 (100% 자회사)" },
+    { "source": "sk_hynix", "target": "sk_hold", "weight": 0.0, "type": "subsidiary_ownership", "description": "SK하이닉스 자사주 보유 구조" },
+    { "source": "sk_tel", "target": "sk_sqe", "weight": 8.34, "type": "circular_loop", "description": "SK텔레콤 → SK스퀘어 (분할 후 잔존 순환 고리)" }
+  ]
+}

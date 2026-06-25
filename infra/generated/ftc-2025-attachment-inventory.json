@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-05-25T01:39:27.091Z",
+  "files": [
+    {
+      "fileName": "(붙임1) 2025년 공시대상기업집단 주식소유현황 보고서.hwpx",
+      "absolutePath": "/home/yoo/dev_ws/stockMonitoring/infra/source/ftc/2025-stock-ownership/extracted/(붙임1) 2025년 공시대상기업집단 주식소유현황 보고서.hwpx",
+      "extension": ".hwpx",
+      "sizeBytes": 317410,
+      "category": "attachment",
+      "attachmentNo": "1"
+    },
+    {
+      "fileName": "(붙임2) 2025년 집단별, 소속회사별 내부지분율 현황.xlsx",
+      "absolutePath": "/home/yoo/dev_ws/stockMonitoring/infra/source/ftc/2025-stock-ownership/extracted/(붙임2) 2025년 집단별, 소속회사별 내부지분율 현황.xlsx",
+      "extension": ".xlsx",
+      "sizeBytes": 1845975,
+      "category": "attachment",
+      "attachmentNo": "2"
+    },
+    {
+      "fileName": "(붙임3) 2025년 기업집단별 소유지분도.pdf",
+      "absolutePath": "/home/yoo/dev_ws/stockMonitoring/infra/source/ftc/2025-stock-ownership/extracted/(붙임3) 2025년 기업집단별 소유지분도.pdf",
+      "extension": ".pdf",
+      "sizeBytes": 10499619,
+      "category": "attachment",
+      "attachmentNo": "3"
+    },
+    {
+      "fileName": "(붙임4) 2025년 공익법인 출자현황.xlsx",
+      "absolutePath": "/home/yoo/dev_ws/stockMonitoring/infra/source/ftc/2025-stock-ownership/extracted/(붙임4) 2025년 공익법인 출자현황.xlsx",
+      "extension": ".xlsx",
+      "sizeBytes": 22950,
+      "category": "attachment",
+      "attachmentNo": "4"
+    },
+    {
+      "fileName": "(붙임5) 2025년 금융보험사 출자 현황.xlsx",
+      "absolutePath": "/home/yoo/dev_ws/stockMonitoring/infra/source/ftc/2025-stock-ownership/extracted/(붙임5) 2025년 금융보험사 출자 현황.xlsx",
+      "extension": ".xlsx",
+      "sizeBytes": 40971,
+      "category": "attachment",
+      "attachmentNo": "5"
+    },
+    {
+      "fileName": "(붙임6) 2025년 국외계열사의 국내계열사 직.간접 출자현황.xlsx",
+      "absolutePath": "/home/yoo/dev_ws/stockMonitoring/infra/source/ftc/2025-stock-ownership/extracted/(붙임6) 2025년 국외계열사의 국내계열사 직.간접 출자현황.xlsx",
+      "extension": ".xlsx",
+      "sizeBytes": 44802,
+      "category": "attachment",
+      "attachmentNo": "6"
+    },
+    {
+      "fileName": "(붙임7) 2025년 사익편취 규제대상 회사 현황.xlsx",
+      "absolutePath": "/home/yoo/dev_ws/stockMonitoring/infra/source/ftc/2025-stock-ownership/extracted/(붙임7) 2025년 사익편취 규제대상 회사 현황.xlsx",
+      "extension": ".xlsx",
+      "sizeBytes": 75674,
+      "category": "attachment",
+      "attachmentNo": "7"
+    },
+    {
+      "fileName": "(붙임8) 2025년 주식지급 약정체결 현황.xlsx",
+      "absolutePath": "/home/yoo/dev_ws/stockMonitoring/infra/source/ftc/2025-stock-ownership/extracted/(붙임8) 2025년 주식지급 약정체결 현황.xlsx",
+      "extension": ".xlsx",
+      "sizeBytes": 40018,
+      "category": "attachment",
+      "attachmentNo": "8"
+    },
+    {
+      "fileName": "appendix-2-internal-shareholding-by-group-company.xlsx",
+      "absolutePath": "/home/yoo/dev_ws/stockMonitoring/infra/source/ftc/2025-stock-ownership/normalized/appendix-2-internal-shareholding-by-group-company.xlsx",
+      "extension": ".xlsx",
+      "sizeBytes": 1845975,
+      "category": "normalized",
+      "attachmentNo": null
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "generatedAt": "2026-05-25T03:33:41.685651Z",
+  "mode": "dry-run",
+  "sourceCsv": "infra/source/ftc/2025-stock-ownership/manual/samsung-edges-gemini-raw.csv",
+  "includeDefault": "false",
+  "edgeCount": 102,
+  "validation": {
+    "generatedAt": "2026-05-25T03:33:41.684707Z",
+    "edgeCount": 102,
+    "nodeCount": 62,
+    "weightRange": {
+      "min": 0.001,
+      "max": 1.0
+    },
+    "weightRangeErrors": [],
+    "missingSourceOrTargetCount": 0,
+    "missingSourceOrTargetRows": [],
+    "duplicateSourceTargetCount": 0,
+    "duplicateSourceTarget": {},
+    "columnSum": {
+      "maxColumnSumTarget": "삼성글로벌리서치",
+      "maxColumnSum": 1.0,
+      "targetsOverOneCount": 0,
+      "targetsOverOne": []
+    },
+    "hundredPercentSubsidiaryTargetsCount": 27,
+    "hundredPercentSubsidiaryTargets": [
+      {
+        "sourceName": "삼성물산",
+        "targetName": "서울레이크사이드",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성물산",
+        "targetName": "제일패션리테일",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성물산",
+        "targetName": "삼우종합건축사사무소",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성물산",
+        "targetName": "삼성웰스토리",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성생명보험",
+        "targetName": "삼성에스알에이자산운용",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성생명보험",
+        "targetName": "삼성생명금융서비스",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성생명보험",
+        "targetName": "삼성자산운용",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성전자",
+        "targetName": "희망별숲",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성전자",
+        "targetName": "삼성전자판매",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성전자",
+        "targetName": "삼성전자로지텍",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성전자",
+        "targetName": "삼성전자서비스씨에스",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성화재해상보험",
+        "targetName": "삼성화재금융서비스보험대리점",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성화재해상보험",
+        "targetName": "삼성화재서비스손해사정",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성화재해상보험",
+        "targetName": "삼성화재애니카손해사정",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성에스디아이",
+        "targetName": "에스티엠",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성에스디에스",
+        "targetName": "오픈핸즈",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성카드",
+        "targetName": "삼성카드고객서비스",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성증권",
+        "targetName": "삼성선물",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "호텔신라",
+        "targetName": "신라에이치엠",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "호텔신라",
+        "targetName": "에스비티엠",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "호텔신라",
+        "targetName": "에스에이치피코퍼레이션",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "에스원",
+        "targetName": "에스원씨알엠",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "에스원",
+        "targetName": "휴먼티에스에스",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "제일기획",
+        "targetName": "수원삼성축구단",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성바이오로직스",
+        "targetName": "삼성바이오에피스",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성자산운용",
+        "targetName": "삼성헤지자산운용",
+        "rawPercent": 100.0
+      },
+      {
+        "sourceName": "삼성자산운용",
+        "targetName": "삼성액티브자산운용",
+        "rawPercent": 100.0
+      }
+    ],
+    "ownerDirectHoldingEdgesCount": 6,
+    "ownerDirectHoldingEdges": [
+      {
+        "sourceName": "동일인(이재용)",
+        "targetName": "삼성물산",
+        "rawPercent": 19.8
+      },
+      {
+        "sourceName": "동일인(이재용)",
+        "targetName": "삼성생명보험",
+        "rawPercent": 10.4
+      },
+      {
+        "sourceName": "동일인(이재용)",
+        "targetName": "삼성에스디에스",
+        "rawPercent": 9.2
+      },
+      {
+        "sourceName": "동일인(이재용)",
+        "targetName": "삼성전자",
+        "rawPercent": 1.5
+      },
+      {
+        "sourceName": "동일인(이재용)",
+        "targetName": "삼성이앤에이",
+        "rawPercent": 1.5
+      },
+      {
+        "sourceName": "동일인(이재용)",
+        "targetName": "삼성화재해상보험",
+        "rawPercent": 0.1
+      }
+    ],
+    "dataLabel": "공정위 PDF 기반 추출 후보 데이터"
+  },
+  "writeAllowed": false,
+  "writeBlockedReason": "include=false 기본값 및 후보 데이터 검증 단계"
+}

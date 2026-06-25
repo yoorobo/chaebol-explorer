@@ -1,0 +1,127 @@
+:root {
+  --bg-primary: #0a0e1a;
+  --bg-secondary: #0f1525;
+  --bg-card: rgba(15, 21, 37, 0.85);
+  --bg-glass: rgba(255, 255, 255, 0.04);
+  --border-glass: rgba(255, 255, 255, 0.08);
+
+  --color-primary: #00d4ff;
+  --color-secondary: #7c3aed;
+  --color-accent: #39ff14;
+  --color-warning: #ff4757;
+  --color-gold: #ffd700;
+
+  --node-listed: #00d4ff;
+  --node-unlisted: #4a5568;
+  --node-financial: #ff4757;
+  --node-owner: #ffd700;
+  --node-foundation: #a78bfa;
+  --edge-circular: #39ff14;
+  --edge-direct: #ffd700;
+  --edge-indirect: rgba(0, 212, 255, 0.6);
+
+  --text-primary: #e2e8f0;
+  --text-secondary: #94a3b8;
+  --text-muted: #475569;
+
+  --shadow-glow-blue: 0 0 20px rgba(0, 212, 255, 0.3);
+  --shadow-glow-green: 0 0 20px rgba(57, 255, 20, 0.4);
+  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
+
+  --radius-sm: 6px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --font-mono: "JetBrains Mono", "Fira Code", monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
+}
+
+.glass-card {
+  background: var(--bg-glass);
+  border: 1px solid var(--border-glass);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: var(--radius-md);
+}
+
+.neon-text {
+  color: var(--color-primary);
+  text-shadow: 0 0 10px rgba(0, 212, 255, 0.6);
+}
+
+.neon-green-text {
+  color: var(--color-accent);
+  text-shadow: 0 0 10px rgba(57, 255, 20, 0.6);
+}
+
+.warning-text {
+  color: var(--color-warning);
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    opacity: 1;
+    filter: drop-shadow(0 0 6px var(--edge-circular));
+  }
+  50% {
+    opacity: 0.5;
+    filter: drop-shadow(0 0 14px var(--edge-circular));
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.4s ease forwards;
+}
+
+.animate-slide-in {
+  animation: slide-in-right 0.35s ease forwards;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 3px;
+}

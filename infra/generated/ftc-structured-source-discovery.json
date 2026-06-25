@@ -1,0 +1,70 @@
+{
+  "generatedAt": "2026-05-25T00:00:00Z",
+  "scope": "FTC/KFTC structured source discovery for Samsung baseline",
+  "policy": {
+    "baselineFirst": true,
+    "dartDeferredToPhaseGH": true,
+    "manualEdgeEntryDefault": false
+  },
+  "candidateEndpoints": [
+    {
+      "name": "brobdnLgBsInfoService/getBrobdnLgBsList",
+      "url": "http://apis.data.go.kr/1130000/brobdnLgBsInfoService/getBrobdnLgBsList",
+      "paramsTried": {
+        "cnpgYm": "202504",
+        "pageNo": 1,
+        "numOfRows": 5
+      },
+      "status": "error",
+      "responseSummary": "Unexpected errors",
+      "structuredSourceUsable": false,
+      "notes": "Needs official parameter contract confirmation or access scope review."
+    },
+    {
+      "name": "sllInnerQotaList/sllInnerQotaListApi",
+      "url": "http://apis.data.go.kr/1130000/sllInnerQotaList/sllInnerQotaListApi",
+      "paramsTried": {
+        "presentnYm": "202504",
+        "pageNo": 1,
+        "numOfRows": 5
+      },
+      "status": "success_empty",
+      "resultCode": "00",
+      "totalCount": 0,
+      "structuredSourceUsable": false,
+      "notes": "Endpoint responds but no rows returned with tested month."
+    },
+    {
+      "name": "innerQotaEqltrmCmprList/innerQotaEqltrmCmprUnityListApi",
+      "url": "https://apis.data.go.kr/1130000/innerQotaEqltrmCmprList/innerQotaEqltrmCmprUnityListApi",
+      "paramsTried": {
+        "presentnYm": "202504",
+        "unityGrupCode": "001",
+        "pageNo": 1,
+        "numOfRows": 5
+      },
+      "status": "success_empty",
+      "resultCode": "00",
+      "totalCount": 0,
+      "structuredSourceUsable": false,
+      "notes": "Need verified Samsung unityGrupCode + published month pair."
+    },
+    {
+      "name": "egroup stat endpoint",
+      "url": "https://www.egroup.go.kr/egps/wi/stat/kfairNetInfo.do",
+      "status": "error",
+      "responseSummary": "HTML 404 error page",
+      "structuredSourceUsable": false,
+      "notes": "Likely not a direct data API endpoint. XHR capture from browser session needed."
+    }
+  ],
+  "discoveryConclusion": {
+    "structuredEdgeSourceFound": false,
+    "reason": "No tested FTC endpoint produced non-empty source-target ownership rows for Samsung.",
+    "recommendedNextStep": [
+      "Inspect egroup browser XHR requests for downloadable structured table endpoints.",
+      "Find FTC API docs for ownership-map backing table and required code system.",
+      "Keep Official FTC Map image/pdf mode as Phase F baseline delivery."
+    ]
+  }
+}

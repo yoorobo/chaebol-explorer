@@ -1,0 +1,28 @@
+{
+  "group": {
+    "id": "hanwha",
+    "name": "한화그룹",
+    "owner": "김승연",
+    "year": 2023,
+    "description": "방산·금융·화학 중심. 한화에어로스페이스가 핵심 축."
+  },
+  "nodes": [
+    { "id": "hw_owner", "label": "김승연 일가", "type": "individual", "asset": 0, "listed": false, "description": "한화그룹 총수. 한화 직접 지분 22.8% 보유." },
+    { "id": "hanwha", "label": "㈜한화", "type": "holding_like", "asset": 8000000000000, "listed": true, "ticker": "000880", "description": "그룹 지주회사. 화약·방산·유통 사업." },
+    { "id": "hw_aero", "label": "한화에어로스페이스", "type": "cash_cow", "asset": 20000000000000, "listed": true, "ticker": "012450", "description": "방산·항공엔진 핵심 계열사." },
+    { "id": "hw_solutions", "label": "한화솔루션", "type": "affiliate", "asset": 12000000000000, "listed": true, "ticker": "009830", "description": "태양광·화학 계열사." },
+    { "id": "hw_life", "label": "한화생명", "type": "financial", "asset": 100000000000000, "listed": true, "ticker": "088350", "description": "금융계열사. 금산분리 규제 대상." },
+    { "id": "hw_systems", "label": "한화시스템", "type": "affiliate", "asset": 4000000000000, "listed": true, "ticker": "272210", "description": "방산 IT·레이더 시스템." },
+    { "id": "hw_ocean", "label": "한화오션", "type": "affiliate", "asset": 6000000000000, "listed": true, "ticker": "042660", "description": "구 대우조선해양. 2023년 인수." }
+  ],
+  "edges": [
+    { "source": "hw_owner", "target": "hanwha", "weight": 22.8, "type": "direct_ownership", "description": "김승연 일가 → ㈜한화" },
+    { "source": "hanwha", "target": "hw_aero", "weight": 33.0, "type": "subsidiary_ownership", "description": "㈜한화 → 한화에어로스페이스" },
+    { "source": "hanwha", "target": "hw_solutions", "weight": 42.8, "type": "subsidiary_ownership", "description": "㈜한화 → 한화솔루션" },
+    { "source": "hanwha", "target": "hw_life", "weight": 24.0, "type": "subsidiary_ownership", "description": "㈜한화 → 한화생명 (금산분리 주목)" },
+    { "source": "hw_aero", "target": "hw_systems", "weight": 47.1, "type": "subsidiary_ownership", "description": "한화에어로스페이스 → 한화시스템" },
+    { "source": "hw_aero", "target": "hw_ocean", "weight": 33.4, "type": "subsidiary_ownership", "description": "한화에어로스페이스 → 한화오션" },
+    { "source": "hw_life", "target": "hanwha", "weight": 4.4, "type": "circular_loop", "description": "한화생명 → ㈜한화 (순환출자 고리)" },
+    { "source": "hw_solutions", "target": "hw_aero", "weight": 3.7, "type": "circular_loop", "description": "한화솔루션 → 한화에어로스페이스 (순환출자)" }
+  ]
+}

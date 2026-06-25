@@ -1,0 +1,24 @@
+{
+  "group": {
+    "id": "posco",
+    "name": "POSCO그룹",
+    "owner": "장인화",
+    "year": 2023,
+    "description": "철강·2차전지소재·수소 중심. 포스코홀딩스 체제로 전환 완료."
+  },
+  "nodes": [
+    { "id": "posco_hold", "label": "포스코홀딩스", "type": "holding_like", "asset": 80000000000000, "listed": true, "ticker": "005490", "description": "2022년 지주회사 전환. 철강·미래소재 지주사." },
+    { "id": "posco_steel", "label": "포스코", "type": "cash_cow", "asset": 40000000000000, "listed": false, "description": "철강 사업 자회사 (비상장)." },
+    { "id": "posco_future", "label": "포스코퓨처엠", "type": "affiliate", "asset": 6000000000000, "listed": true, "ticker": "003670", "description": "2차전지 양극재·음극재 소재." },
+    { "id": "posco_int", "label": "포스코인터내셔널", "type": "affiliate", "asset": 5000000000000, "listed": true, "ticker": "047050", "description": "종합상사·에너지 계열사." },
+    { "id": "posco_chem", "label": "포스코DX", "type": "affiliate", "asset": 2000000000000, "listed": true, "ticker": "022100", "description": "그룹 IT·자동화 솔루션." },
+    { "id": "nb_fund", "label": "국민연금", "type": "foundation", "asset": 0, "listed": false, "description": "최대주주 (10.4%). 외국인 투자자 연합이 2대주주." }
+  ],
+  "edges": [
+    { "source": "nb_fund", "target": "posco_hold", "weight": 10.4, "type": "direct_ownership", "description": "국민연금 → 포스코홀딩스 (최대주주)" },
+    { "source": "posco_hold", "target": "posco_steel", "weight": 100.0, "type": "subsidiary_ownership", "description": "포스코홀딩스 → 포스코 (100%)" },
+    { "source": "posco_hold", "target": "posco_future", "weight": 62.3, "type": "subsidiary_ownership", "description": "포스코홀딩스 → 포스코퓨처엠" },
+    { "source": "posco_hold", "target": "posco_int", "weight": 62.1, "type": "subsidiary_ownership", "description": "포스코홀딩스 → 포스코인터내셔널" },
+    { "source": "posco_hold", "target": "posco_chem", "weight": 61.6, "type": "subsidiary_ownership", "description": "포스코홀딩스 → 포스코DX" }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "chaebol-lambda-analyze",
+  "version": "1.0.0",
+  "description": "Bedrock AI analysis Lambda handler",
+  "type": "commonjs",
+  "scripts": {
+    "build": "esbuild analyze.ts --bundle --platform=node --target=node20 --outfile=dist/analyze.js",
+    "build:zip": "npm run build && rm -f analyze.zip && cd dist && zip -j ../analyze.zip analyze.js",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "^3.1052.0"
+  },
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.149",
+    "esbuild": "^0.25.11",
+    "typescript": "^5.8.3"
+  }
+}

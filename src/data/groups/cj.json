@@ -1,0 +1,18 @@
+{
+  "group": { "id": "cj", "name": "CJ그룹", "owner": "이재현", "year": 2023, "description": "삼성에서 분리. 식품·물류·미디어·바이오 4대 사업." },
+  "nodes": [
+    { "id": "cj_owner", "label": "이재현 일가", "type": "individual", "asset": 0, "listed": false, "description": "CJ그룹 회장. 이병철 손자." },
+    { "id": "cj_hold", "label": "CJ㈜", "type": "holding_like", "asset": 6000000000000, "listed": true, "ticker": "001040", "description": "CJ그룹 지주회사." },
+    { "id": "cj_cheil", "label": "CJ제일제당", "type": "cash_cow", "asset": 15000000000000, "listed": true, "ticker": "097950", "description": "식품·바이오. 그룹 핵심 캐시카우." },
+    { "id": "cj_logistics", "label": "CJ대한통운", "type": "affiliate", "asset": 5000000000000, "listed": true, "ticker": "000120", "description": "물류·택배 1위." },
+    { "id": "cj_enm", "label": "CJ ENM", "type": "affiliate", "asset": 3000000000000, "listed": true, "ticker": "035760", "description": "미디어·콘텐츠·커머스." },
+    { "id": "cj_cgv", "label": "CJ CGV", "type": "affiliate", "asset": 1500000000000, "listed": true, "ticker": "079160", "description": "멀티플렉스 영화관." }
+  ],
+  "edges": [
+    { "source": "cj_owner", "target": "cj_hold", "weight": 42.5, "type": "direct_ownership", "description": "이재현 일가 → CJ㈜" },
+    { "source": "cj_hold", "target": "cj_cheil", "weight": 36.5, "type": "subsidiary_ownership", "description": "CJ㈜ → CJ제일제당" },
+    { "source": "cj_hold", "target": "cj_enm", "weight": 38.9, "type": "subsidiary_ownership", "description": "CJ㈜ → CJ ENM" },
+    { "source": "cj_cheil", "target": "cj_logistics", "weight": 40.2, "type": "subsidiary_ownership", "description": "CJ제일제당 → CJ대한통운" },
+    { "source": "cj_enm", "target": "cj_cgv", "weight": 39.6, "type": "subsidiary_ownership", "description": "CJ ENM → CJ CGV" }
+  ]
+}

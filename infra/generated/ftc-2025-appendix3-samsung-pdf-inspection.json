@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-05-25T01:39:37.905Z",
+  "fileName": "(붙임3) 2025년 기업집단별 소유지분도.pdf",
+  "hasSamsungKeyword": true,
+  "samsungLinePreview": [
+    "1. 삼성 ··················································· 1",
+    "1.「삼성」소유지분도",
+    "삼성물산(19.8)",
+    "삼성생명보험(10.4)",
+    "삼성에스디에스(9.2)",
+    "삼성이앤에이(1.5)",
+    "삼성전자(1.5)",
+    "삼성화재해상보험(0.1)",
+    "★삼성",
+    "★삼성",
+    "★삼성",
+    "18.7 ★삼성에프엔 0.4",
+    "삼성화재",
+    "삼성화재",
+    "삼성화재",
+    "★삼성",
+    "삼성",
+    "삼성",
+    "삼성",
+    "삼성생명"
+  ],
+  "extractability": "high",
+  "pages": 95,
+  "note": "Text extraction via pdftotext is available. Relationship graph parsing still requires table/shape aware parser."
+}
